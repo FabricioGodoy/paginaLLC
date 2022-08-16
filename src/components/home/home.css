@@ -1,0 +1,133 @@
+.banner {
+  width: auto;
+  height: 55vh;
+  background-size: 100% 100%;
+  animation: banner 60s infinite;
+  animation-direction: normal;
+}
+@keyframes banner {
+  0%,
+  10% {
+    background-image: url(/src/images/banner/banners1.jpeg);
+    opacity: 1;
+  }
+  11%,
+  20% {
+    background-image: url(/src/images/banner/Banner2.jpeg);
+    opacity: 1;
+  }
+  21%,
+  30% {
+    background-image: url(/src/images/banner/Banner3.jpeg);
+    opacity: 1;
+  }
+  31%,
+  40% {
+    background-image: url(/src/images/banner/banner4.webp);
+    opacity: 1;
+  }
+  41%,
+  50% {
+    background-image: url(/src/images/banner/banner5.jpeg);
+    opacity: 1;
+  }
+  51%,
+  60% {
+    background-image: url(/src/images/banner/banner6.jpeg);
+    opacity: 1;
+  }
+  61%,
+  70% {
+    background-image: url(/src/images/banner/banner7.jpeg);
+    opacity: 1;
+  }
+  71%,
+  80% {
+    background-image: url(/src/images/banner/banner8.webp);
+    opacity: 1;
+  }
+  81%,
+  90% {
+    background-image: url(/src/images/banner/banner9.webp);
+    opacity: 1;
+  }
+  91%,
+  100% {
+    background-image: url(/src/images/banner/banner10.webp);
+    opacity: 1;
+  }
+}
+
+.quickAccess {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: auto;
+  margin-top: 1.5rem;
+  text-align: center;
+  justify-content: space-around;
+  width: 75vw;
+  border-radius: 20px;
+}
+
+.cardQuickAccess {
+  display: flex;
+  width: 70vw;
+  margin: 3px;
+  border: 3px solid grey;
+  border-radius: 20px;
+  font-weight: bold;
+  align-items: center;
+  background-color: white;
+}
+.cardQuickAccess:hover {
+  cursor: pointer;
+  box-shadow: 1px 2px 1px ;
+  /* border: 3px solid #f7a902; */
+  /*  box-shadow: 1px 1px 10px .1px; */
+}
+.iconsQuickAccess {
+  width: 3rem;
+  height: 3rem;
+  margin: 2px;
+  padding: auto;
+  transition: all 1000ms;
+}
+.iconsQuickAccess:hover {
+  transform: rotateY(-360deg);
+}
+.cardQuickAccess a {
+  text-decoration: none;
+  color: black;
+  margin: auto;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.optionsMenu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  justify-content: space-evenly;
+  height: 20vh;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  margin-top: 3%;
+}
+.cardOptionMenu{
+  border: 2px solid grey;
+  margin: 5px;
+  width: 20vw;
+  height: 15vh;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 5px;
+}
+.cardOptionMenu:hover{
+    box-shadow: 1px 2px 1px ;
+}
+.imgOptionMenu{
+  margin: 4%;
+  width: 17vw;
+  height: 12vh;
+}

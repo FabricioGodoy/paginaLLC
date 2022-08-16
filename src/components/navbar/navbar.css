@@ -1,0 +1,117 @@
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: auto;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+  text-decoration: none;
+  flex-direction: row;
+}
+.containerNavbar{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 95vw;
+}
+.logoNavbar {
+  height: 4em;
+}
+
+.navbar li {
+  position: relative;
+  font-size: 2px;
+  line-height: 20px;
+  color: #f9f9f9;
+  list-style: none;
+  font-weight: bold;
+  float: left;
+  text-align: center;
+}
+.navbar li:hover {
+  border-bottom: 2px solid #f7a902;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  justify-content: space-around;
+  margin-top: 2em;
+
+}
+.left-nav-bar a {
+  position: relative;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-size: 15px;
+  margin: .7rem;
+}
+
+.rigth-nav-bar a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  align-items: center;
+  margin-top: -1vh;
+}
+
+/* styles shearch bar */
+.nav-bar-busqueda {
+  justify-content: space-around;
+  margin-top: -.6em;
+
+}
+.nav-bar-busqueda input {
+  height: 7vh;
+  border-radius: 10px;
+  width: 25vw;
+}
+/* fin styles shearch bar */
+.cart{
+  width: 2rem;
+  height: 2rem;
+  margin-top: -.5em;
+}
+.cart:hover{
+  border-bottom: 1px solid #f7a902;
+}
+.bottomNavbar{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.bottomListNavbar {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color:#2b2a2f;
+  width: 100%;
+  justify-content: space-evenly;
+  margin: 0%;
+}
+.bottomListNavbar li{
+  display: flex;
+  width: 10vw;
+  height: 3vh;
+  justify-content: center;
+  align-items:center;
+  
+}
+.bottomListNavbar a {
+  flex-wrap: nowrap;
+  color: white;
+  font-size: 12.5px;
+  text-decoration: none;
+
+}
+.iconFlagArg{
+
+  border-radius: 500px;
+  width: 2rem;
+  height: 2rem;
+}
