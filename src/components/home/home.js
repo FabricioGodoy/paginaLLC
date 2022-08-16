@@ -1,8 +1,10 @@
 import "./home.css";
-import logoCard from "../../images/confianza_cuotas.svg";
-import logoPickup from "../../images/confianza_retiro.svg";
-import logoSecure from "../../images/confianza_garantia.svg";
-import logoChat from "../../images/chat.svg";
+import logoCard from "../../images/logos/confianza_cuotas.svg";
+import logoPickup from "../../images/logos/confianza_retiro.svg";
+import logoSecure from "../../images/logos/confianza_garantia.svg";
+import logoChat from "../../images/logos/chat.svg";
+import pcVieja from "../../images/products/pcVieja.jpg";
+import logoCartAdd from "../../images/logos/logoCartAdd.png";
 
 const Home = () => {
   return (
@@ -36,40 +38,94 @@ const Home = () => {
         </section>
       </div>
 
-      <article className="optionsMenu">
-        <section className="cardOptionMenu focus-in-expand-fwd">
+      <article className="sliderHomeProducts">
+        <section className="cardSliderHomeProducts">
           <a href="#">
             <img
               src="https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/productos/Printers_large.webp"
-              className="imgOptionMenu"
+              className="imgSliderHomeProducts"
             />
           </a>
         </section>
-        <section className="cardOptionMenu focus-in-expand-fwd">
+        <section className="cardSliderHomeProducts">
           <a href="#">
             <img
               src="https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/productos/AccessPoints_large.webp"
-              className="imgOptionMenu"
-            />  
-          </a>
-        </section>
-        <section className="cardOptionMenu focus-in-expand-fwd">
-          <a href="#">
-            <img
-              src="https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/productos/Switches_large.webp"
-              className="imgOptionMenu"
+              className="imgSliderHomeProducts"
             />
           </a>
         </section>
-        <section className="cardOptionMenu focus-in-expand-fwd">
+        <section className="cardSliderHomeProducts">
+          <a href="#">
+            <img
+              src="https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/productos/Switches_large.webp"
+              className="imgSliderHomeProducts"
+            />
+          </a>
+        </section>
+        <section className="cardSliderHomeProducts">
           <a href="#">
             <img
               src="https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/productos/Telephones_large.webp"
-              className="imgOptionMenu"
+              className="imgSliderHomeProducts"
             />
           </a>
         </section>
       </article>
+
+      <section className="productsContainer">
+        <article className="products">
+          <img src={pcVieja} width="100%" />
+          <section className="info-produc">
+            <img src={logoCartAdd} className="logoCartAdd" />
+            <section className="info-price">
+              <p className="price">$6.a770</p>
+              <p className="discount">40% OFF</p>
+            </section>
+
+            <h4 className="descripcion">Cafetera Moulinex</h4>
+          </section>
+        </article>
+
+        <article className="products">
+          <img src={pcVieja} width="100%" />
+          <section className="info-produc">
+            <img src={logoCartAdd} className="logoCartAdd" />
+            <section className="info-price">
+              <p className="price">$6.770</p>
+              <p className="discount">40% OFF</p>
+            </section>
+
+            <h4 className="descripcion">Cafetera Moulinex</h4>
+          </section>
+        </article>
+
+        <article className="products">
+          <img src={pcVieja} width="100%" />
+          <section className="info-produc">
+            <img src={logoCartAdd} className="logoCartAdd" />
+            <section className="info-price">
+              <p className="price">$6.770</p>
+              <p className="discount">40% OFF</p>
+            </section>
+
+            <h4 className="descripcion">Cafetera Moulinex</h4>
+          </section>
+        </article>
+
+        <article className="products">
+          <img src={pcVieja} width="100%" />
+          <section className="info-produc">
+            <img src={logoCartAdd} className="logoCartAdd" />
+            <section className="info-price">
+              <p className="price">$6.770</p>
+              <p className="discount">40% OFF</p>
+            </section>
+
+            <h4 className="descripcion">Cafetera Moulinex</h4>
+          </section>
+        </article>
+      </section>
     </div>
   );
 };

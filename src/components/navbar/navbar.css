@@ -1,8 +1,7 @@
 .navbar {
-  position: relative;
   display: flex;
   flex-wrap: wrap;
-  width: 100vw;
+  /* width: 100vw; */
   height: auto;
   background-color: black;
   color: white;
@@ -13,10 +12,12 @@
 .containerNavbar{
   display: flex;
   flex-wrap: nowrap;
-  width: 95vw;
+  width: 100vw;
 }
 .logoNavbar {
   height: 4em;
+  margin: 1rem 2rem .5rem;
+  padding: auto;
 }
 
 .navbar li {
@@ -47,7 +48,7 @@
   list-style: none;
   color: white;
   font-size: 15px;
-  margin: .7rem;
+  margin: 1rem 1rem;
 }
 
 .rigth-nav-bar a {

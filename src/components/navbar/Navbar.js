@@ -1,6 +1,6 @@
 import './navbar.css';
-import logo from "../../images/logo-sn.png" ;
-import banderaArg from "../../images/banderaArg.jpg";
+import logo from "../../images/logos/logo-sn.png" ;
+import banderaArg from "../../images/logos/banderaArg.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Header =()=>{
