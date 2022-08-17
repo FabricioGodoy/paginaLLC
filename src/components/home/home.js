@@ -1,3 +1,5 @@
+import React from "react";
+import { ProductsView } from "./products/products";
 import "./home.css";
 import logoCard from "../../images/logos/confianza_cuotas.svg";
 import logoPickup from "../../images/logos/confianza_retiro.svg";
@@ -73,60 +75,9 @@ const Home = () => {
         </section>
       </article>
 
-      <section className="productsContainer">
-        <article className="products">
-          <img src={pcVieja} width="100%" />
-          <section className="info-produc">
-            <img src={logoCartAdd} className="logoCartAdd" />
-            <section className="info-price">
-              <p className="price">$6.a770</p>
-              <p className="discount">40% OFF</p>
-            </section>
-
-            <h4 className="descripcion">Cafetera Moulinex</h4>
-          </section>
-        </article>
-
-        <article className="products">
-          <img src={pcVieja} width="100%" />
-          <section className="info-produc">
-            <img src={logoCartAdd} className="logoCartAdd" />
-            <section className="info-price">
-              <p className="price">$6.770</p>
-              <p className="discount">40% OFF</p>
-            </section>
-
-            <h4 className="descripcion">Cafetera Moulinex</h4>
-          </section>
-        </article>
-
-        <article className="products">
-          <img src={pcVieja} width="100%" />
-          <section className="info-produc">
-            <img src={logoCartAdd} className="logoCartAdd" />
-            <section className="info-price">
-              <p className="price">$6.770</p>
-              <p className="discount">40% OFF</p>
-            </section>
-
-            <h4 className="descripcion">Cafetera Moulinex</h4>
-          </section>
-        </article>
-
-        <article className="products">
-          <img src={pcVieja} width="100%" />
-          <section className="info-produc">
-            <img src={logoCartAdd} className="logoCartAdd" />
-            <section className="info-price">
-              <p className="price">$6.770</p>
-              <p className="discount">40% OFF</p>
-            </section>
-
-            <h4 className="descripcion">Cafetera Moulinex</h4>
-          </section>
-        </article>
-      </section>
+   { <ProductsView/>}
     </div>
+    
   );
 };
 export default Home;

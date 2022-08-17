@@ -1,9 +1,6 @@
 /* BANNER */
-.home{
- position: relative;
-}
 .banner {
-  /* width: 100vw; */
+  width: 100%;
   height: 55vh;
   background-size: 100% 100%;
   animation: banner 60s infinite;
@@ -112,12 +109,12 @@
 .sliderHomeProducts {
   display: flex;
   flex-wrap: wrap;
-  width: 100vw;
+  width: 90vw;
+  margin: auto;
   justify-content: space-evenly;
   height: 20vh;
-  margin: auto;
   text-align: center;
-  margin-top: 3%;
+  margin-top: 2%;
 }
 .cardSliderHomeProducts{
   margin: 5px;
@@ -146,11 +143,12 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
-  width: 100vw;
+  width: 100%;
+  margin: 0 0 50px;
 
 }
 .products{
-  margin: auto;
+  width: 23vw;
 }
 .info-produc{
   position: relative;
@@ -171,7 +169,6 @@
   position: absolute;
   right: 50px;
   top: -25px;
-  z-index: 9;
 }
 .info-price{
   margin: 1rem 0;

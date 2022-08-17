@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Header =()=>{
   return(
     <header className="navbar">
-      <div>
         <div className='containerNavbar'>
           <a href="/"><img src={logo} alt="logo navbar" className='logoNavbar'/></a>
               <div className='list'>
@@ -37,7 +36,7 @@ const Header =()=>{
         </div>
          <br/>
         <div className='bottomNavbar'>
-            <ul className="bottomListNavbar">
+            <ul>
                <li><a href="#">Router</a></li>
                <li><a href="#">Switches</a></li>
                <li><a href="#">Telephone</a></li>
@@ -46,7 +45,7 @@ const Header =()=>{
                <li><a href="#">Access point</a></li>
             </ul>
         </div>
-      </div>
+      
     </header>
   )
 }
