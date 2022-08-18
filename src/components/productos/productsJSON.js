@@ -1,7 +1,7 @@
 export const Products = [
   {
     id: 1,
-    category: "PC",
+    category: "PC Office",
     img: "https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/productos/pcVieja.webp",
     sku: " PCI38GB250-1",
     name: "Model SC20",
@@ -19,7 +19,7 @@ export const Products = [
   },
   {
     id: 2,
-    category: "PC",
+    category: "PC Office",
     img: "https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/productos/pcVieja.webp",
     sku: " PCR58GB250-1",
     name: "Model SC45",
@@ -37,7 +37,7 @@ export const Products = [
   },
   {
     id: 3,
-    category: "PC",
+    category: "PC Office",
     img: "https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/productos/pcVieja.webp",
     sku: " PCI58GB250-1",
     name: "Model SC20",
@@ -55,7 +55,7 @@ export const Products = [
   },
   {
     id: 4,
-    category: "PC",
+    category: "PC Office",
     img: "https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/productos/pcVieja.webp",
     sku: " PCR58GB250-2",
     name: "Model SC45",
@@ -73,7 +73,7 @@ export const Products = [
   },
   {
     id: 5,
-    category: "PC",
+    category: "PC Office",
     img: "https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/productos/pcVieja.webp",
     sku: " PCI38GB250-2",
     name: "Model SC20",
@@ -91,7 +91,7 @@ export const Products = [
   },
   {
     id: 6,
-    category: "PC",
+    category: "PC Office",
     img: "https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/productos/pcVieja.webp",
     sku: "PCR58GB250-3",
     name: "Model SC45",
@@ -109,7 +109,7 @@ export const Products = [
   },
   {
     id: 7,
-    category: "PC",
+    category: "PC Office",
     img: "https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/productos/pcVieja.webp",
     sku: " PCI58GB250-2",
     name: "Model SC30 ",
@@ -127,7 +127,7 @@ export const Products = [
   },
   {
     id: 8,
-    category: "PC",
+    category: "PC Office",
     img: "https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/productos/pcVieja.webp",
     sku: " PPCR58GB250-4",
     name: "Model SC45",

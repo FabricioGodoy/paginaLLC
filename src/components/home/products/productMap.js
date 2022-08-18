@@ -1,26 +1,77 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import "./products.css";
 
 export const ProductMap = ({ stock }) => {
   console.log(stock);
   return (
-    <Container className="my-5 t">
-      <h1>Products</h1>
-      <div>
-        {stock.map((article) => (
-          <article key={article.id}>
-            <img src={article.img} />
-            <section>
-              <h3>{article.ean}</h3>
-              <p>{article.caracteristicas}</p>
+    <div className="containerProduct">
+      {stock.map((article) => (
+        <article key={article.id} className="productContainer">
+          <img src={article.img} className="imgProduct" alt="imgProduct" />
+          <section className="descriptionContainer">
+            <p className="tittleProduct">{article.category}</p>
+            <h3 className="tittleProduct">{article.name}</h3>
+            <div className="buttonContainer">
               <Link to={`/detailProduct/${article.id}`}>
-                <button>More Info</button>
+                <button className="buttonProductContainer">More Info</button>
               </Link>
-            </section>
-          </article>
-        ))}
-      </div>
-    </Container>
+              <Link to={`/detailProduct/${article.id}`}>
+                <button className="buttonProductContainer">Buy it Now</button>
+              </Link>
+            </div>
+          </section>
+        </article>
+      ))}
+    </div>
   );
 };
+
+/* 
+
+<div class="container my-4 w-50">
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <!-- Diapositivas -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card h-100">
+                        <img src="https://i.stack.imgur.com/yyE56.png" class="card-img-top w-100 bg-dark" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title 1</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card h-100">
+                        <img src="https://i.stack.imgur.com/yyE56.png" class="card-img-top w-100" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title 2</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card h-100">
+                        <img src="https://i.stack.imgur.com/yyE56.png" class="card-img-top w-100" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title 3</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Controles -->
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </div> */

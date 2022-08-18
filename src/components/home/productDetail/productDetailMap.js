@@ -1,13 +1,12 @@
 import React from "react";
-import { Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 export const ProductDetailMap = ({ product }) => {
   return (
-    <Container className="my-5">
+    <div className="my-5">
       <h2> Product Detail </h2>
       <hr />
-      <Row>
+      <div>
         {product.map((article) => (
           <section key={article.id}>
             <article >
@@ -24,12 +23,12 @@ export const ProductDetailMap = ({ product }) => {
             </article>
             <hr />
             <Link to={`/`}>
-              <button>Back</button>
+              <button className="buttonProductContainer">Back</button>
             </Link>
           </section>
         ))}
-      </Row>
-    </Container>
+      </div>
+    </div>
   );
 };
 
