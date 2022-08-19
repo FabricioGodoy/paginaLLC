@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Slider from "react-slick";
 
-export const ReactSlickDemo= () => {
+export const SlickPCOffice= () => {
   
     var settings = {
       dots: true
@@ -25,4 +25,4 @@ export const ReactSlickDemo= () => {
   }
 
 
-export default ReactSlickDemo
+export default SlickPCOffice

@@ -15,10 +15,10 @@
 .productContainer{
     display: flex;
     flex-wrap: wrap;
-    width: 19vw;
+    width: 20vw;
     margin: 15px;
     text-align: center;
-    padding: 5px;
+    padding: 2px;
     background-color: rgb(250, 248, 245);
     justify-content: space-around;
     border-radius: 50px 50px 50px 50px;
