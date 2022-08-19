@@ -1,0 +1,47 @@
+.containerProductDetail {
+  display: flex;
+  margin: auto;
+  width: 90vw;
+}
+.titleDetailProduct {
+  font-size: 500%;
+  display: flex;
+  justify-content: space-around;
+}
+.containerDetail {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.containerListDetail {
+  display: flex;
+  width: 50vw;
+}
+.imgDetailProduct {
+  width: 40vw;
+  height: auto;
+}
+.containerListDetail li {
+  display: flex;
+  flex-wrap: nowrap;
+  font-weight: bold;
+  padding: 2rem;
+  width: 10vw;
+}
+
+.containerButtonDetailProduct {
+  margin: auto;
+}
+.buttonDetailProduct {
+  margin: 10px;
+  padding: 5px;
+  height: auto;
+  width: auto;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 50px;
+}
+.buttonDetailProduct:hover {
+  cursor: pointer;
+  background-color: rgb(212, 200, 200);
+}

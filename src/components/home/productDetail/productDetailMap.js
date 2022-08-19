@@ -1,34 +1,42 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./productDetail.css";
 
 export const ProductDetailMap = ({ product }) => {
   return (
-    <div className="my-5">
-      <h2> Product Detail </h2>
-      <hr />
-      <div>
-        {product.map((article) => (
-          <section key={article.id}>
-            <article >
-              <div>
-                <img src={article.img} alt="img article" />
+    <>
+      {" "}
+      <h2 className="titleDetailProduct"> Product Detail </h2>
+      <div className="containerProductDetail">
+        <hr />
+        <div>
+          {product.map((article) => (
+            <section key={article.id} className="containerDetail">
+              <article>
+                <div className="containerListDetail">
+                  <img
+                    src={article.img}
+                    className="imgDetailProduct"
+                    alt="img article"
+                  />
+                  {article.caracteristicas.map((data) => (
+                    <li>{data}</li>
+                  ))}
+                </div>
+              </article>
+              <hr />
+              <div className="containerButtonDetailProduct">
+                <Link to={`/`}>
+                  <button className="buttonDetailProduct">Back</button>
+                </Link>
+                <Link to={`/detailProduct/${article.id}`}>
+                  <button className="buttonDetailProduct">Buy it Now</button>
+                </Link>
               </div>
-              <br />
-              <br />
-              <div>
-                {article.caracteristicas.map((data) => (
-                  <li >{data}</li>
-                ))}
-              </div>
-            </article>
-            <hr />
-            <Link to={`/`}>
-              <button className="buttonProductContainer">Back</button>
-            </Link>
-          </section>
-        ))}
+            </section>
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
-
