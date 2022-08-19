@@ -2,29 +2,34 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./products.css";
+import ReactSlickDemo from "./slider";
 
 export const ProductMap = ({ stock }) => {
   console.log(stock);
   return (
-    <div className="containerProduct">
-      {stock.map((article) => (
-        <article key={article.id} className="productContainer">
-          <img src={article.img} className="imgProduct" alt="imgProduct" />
-          <section className="descriptionContainer">
-            <p className="tittleProduct">{article.category}</p>
-            <h3 className="tittleProduct">{article.name}</h3>
-            <div className="buttonContainer">
-              <Link to={`/detailProduct/${article.id}`}>
-                <button className="buttonProductContainer">More Info</button>
-              </Link>
-              <Link to={`/detailProduct/${article.id}`}>
-                <button className="buttonProductContainer">Buy it Now</button>
-              </Link>
-            </div>
-          </section>
-        </article>
-      ))}
-    </div>
+    <>
+      {" "}
+      <h1 className="titleProduct">PCs Office</h1>
+      <div className="containerProduct">
+        {stock.map((article) => (
+          <article key={article.id} className="productContainer">
+            <ReactSlickDemo />
+            <section className="descriptionContainer">
+              <p className="tittleProduct">{article.category}</p>
+              <h3 className="tittleProduct">{article.name}</h3>
+              <div className="buttonContainer">
+                <Link to={`/detailProduct/${article.id}`}>
+                  <button className="buttonProductContainer">More Info</button>
+                </Link>
+                <Link to={`/detailProduct/${article.id}`}>
+                  <button className="buttonProductContainer">Buy it Now</button>
+                </Link>
+              </div>
+            </section>
+          </article>
+        ))}
+      </div>
+    </>
   );
 };
 
