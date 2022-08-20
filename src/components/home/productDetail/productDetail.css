@@ -1,5 +1,5 @@
 .containerProductDetail {
-  display: flex;
+ 
   margin: auto;
   width: 90vw;
 }
@@ -9,24 +9,26 @@
   justify-content: space-around;
 }
 .containerDetail {
-  display: flex;
-  flex-wrap: wrap;
+  justify-content: space-around;
   text-align: center;
+
 }
 .containerListDetail {
-  display: flex;
-  width: 50vw;
+  width: 100%;
+  text-align: center;
+
 }
 .imgDetailProduct {
-  width: 40vw;
+  margin: 50px 25px 25px 25px;
+  width: 25vw;
   height: auto;
 }
-.containerListDetail li {
-  display: flex;
-  flex-wrap: nowrap;
+.listDetail {
+  width: auto;
+  margin: 10px 50px 15px 50px;
   font-weight: bold;
-  padding: 2rem;
-  width: 10vw;
+  list-style: none;
+  padding: auto;
 }
 
 .containerButtonDetailProduct {

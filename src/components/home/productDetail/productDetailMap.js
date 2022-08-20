@@ -12,19 +12,17 @@ export const ProductDetailMap = ({ product }) => {
         <div>
           {product.map((article) => (
             <section key={article.id} className="containerDetail">
-              <article>
-                <div className="containerListDetail">
+              <article  className="containerListDetail">
                   <img
                     src={article.img}
                     className="imgDetailProduct"
                     alt="img article"
                   />
                   {article.caracteristicas.map((data) => (
-                    <li>{data}</li>
+                    <li className="listDetail">{data}</li>
                   ))}
-                </div>
-              </article>
               <hr />
+              </article>
               <div className="containerButtonDetailProduct">
                 <Link to={`/`}>
                   <button className="buttonDetailProduct">Back</button>
