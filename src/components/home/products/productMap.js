@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./products.css";
-import SlickPCOffice from "./slider";
+import SlickPCOffice from "./sliderProduct";
 
 export const ProductMap = ({ stock }) => {
   console.log(stock);
@@ -13,15 +13,15 @@ export const ProductMap = ({ stock }) => {
       <div className="containerProduct">
         {stock.map((article) => (
           <article key={article.id} className="productContainer">
-            <SlickPCOffice />
+            <SlickPCOffice/>
             <section className="descriptionContainer">
-              <p className="tittleProduct">{article.category}</p>
-              <h3 className="tittleProduct">{article.name}</h3>
+                <p>{article.category}</p>
+                <h3>{article.name}</h3>
               <div className="buttonContainer">
                 <Link to={`/detailProduct/${article.id}`}>
                   <button className="buttonProductContainer">More Info</button>
                 </Link>
-                <Link to={`/detailProduct/${article.id}`}>
+                <Link to={`#`}>
                   <button className="buttonProductContainer">Buy it Now</button>
                 </Link>
               </div>

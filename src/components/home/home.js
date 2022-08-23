@@ -5,8 +5,6 @@ import logoCard from "../../images/logos/confianza_cuotas.svg";
 import logoPickup from "../../images/logos/confianza_retiro.svg";
 import logoSecure from "../../images/logos/confianza_garantia.svg";
 import logoChat from "../../images/logos/chat.svg";
-import pcVieja from "../../images/products/pcVieja.jpg";
-import logoCartAdd from "../../images/logos/logoCartAdd.png";
 
 const Home = () => {
   return (

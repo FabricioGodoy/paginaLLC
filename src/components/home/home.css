@@ -82,7 +82,7 @@
 }
 .cardQuickAccess:hover {
   cursor: pointer;
-  box-shadow: 1px 2px 1px ;
+  box-shadow: 1px 2px 1px #f5a742;   ;
   /* border: 3px solid #f7a902; */
   /*  box-shadow: 1px 1px 10px .1px; */
 }
@@ -90,7 +90,7 @@
   width: 3rem;
   height: 3rem;
   margin: 2px;
-  transition: all 1000ms;
+  transition: all 1500ms;
 }
 .iconsQuickAccess:hover {
   transform: rotateY(-360deg);
@@ -125,7 +125,7 @@
   border-radius: 25px 5px 25px 5px;
 }
 .cardSliderHomeProducts:hover{
-    box-shadow: 1px 2px 1px ;
+    box-shadow: 1px 2px 1px #f5a742;    ;
 }
 .imgSliderHomeProducts{
   margin: 4%;

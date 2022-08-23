@@ -1,34 +1,56 @@
+
+  .titleDetailProduct {
+    text-align: center;   
+    font-size: 400%;
+    justify-content: space-around;
+    padding: 1rem;
+  }
 .containerProductDetail {
- 
+  position: relative;
+  display: flex ;
+  flex-wrap: wrap;
   margin: auto;
-  width: 90vw;
-}
-.titleDetailProduct {
-  font-size: 500%;
-  display: flex;
-  justify-content: space-around;
-}
-.containerDetail {
+  width: 100%;
   justify-content: space-around;
   text-align: center;
-
+  flex-direction: column;
 }
+
 .containerListDetail {
+ display: flex;
+ flex-wrap: nowrap;
   width: 100%;
   text-align: center;
+  justify-content: space-evenly;
 
 }
-.imgDetailProduct {
-  margin: 50px 25px 25px 25px;
-  width: 25vw;
+.containerImg{
+  display: flex;
+  width: 4%;
+}
+.containerList{
+  display: flex;
+  flex-direction: column;
+}
+.imgProductDetailSlick{
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+}
+
+.listDetail {
+  display: flex ;
+  margin: auto;
+  text-align: justify;
+  font-weight: bold;
+  font-size: 17px;
+  width: 100%;
+  padding:1rem;
   height: auto;
 }
-.listDetail {
-  width: auto;
-  margin: 10px 50px 15px 50px;
-  font-weight: bold;
-  list-style: none;
-  padding: auto;
+.listDetail:hover{
+  background-color: rgb(221, 219, 219);
+  
 }
 
 .containerButtonDetailProduct {
@@ -45,5 +67,5 @@
 }
 .buttonDetailProduct:hover {
   cursor: pointer;
-  background-color: rgb(212, 200, 200);
+  background-color:#f5a742;
 }

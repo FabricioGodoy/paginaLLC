@@ -15,8 +15,8 @@
 .productContainer{
     display: flex;
     flex-wrap: wrap;
-    width: 20vw;
-    margin: 15px;
+    width: 20%;
+    margin: 10px;
     text-align: center;
     padding: 2px;
     background-color: rgb(250, 248, 245);
@@ -27,18 +27,15 @@
 .imgProduct{
     width: 80%;
     margin: auto;
-    border-radius: 50px 50px 0px 0px;
 }
 .descriptionContainer{
-    /* margin: 1rem 0; */
-    margin-top: 3px;
-    margin: 1px;
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 1rem 15rem;
     padding: 1rem 1rem;
-    background-color: black;
+    background-color:#222a33;
     width: 100%;
     height: auto;
     border-radius: 0px 0px 50px 50px;
@@ -55,7 +52,7 @@
 .descriptionContainer p{
     text-align: center;
     font-size: 25px;
-    color: red;
+    color:#f5a742;    
     font-weight: bold;
 }
 
@@ -74,5 +71,5 @@
 }
 .buttonProductContainer:hover{
     cursor: pointer;
-    background-color: rgb(212, 200, 200);
+    background-color:#f5a742;   
 }
