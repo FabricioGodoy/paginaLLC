@@ -15,8 +15,9 @@
 .productContainer{
     display: flex;
     flex-wrap: wrap;
-    width: 20%;
-    margin: 10px;
+    width: 15%;
+    margin: 3rem;
+    padding: 2rem;
     text-align: center;
     padding: 2px;
     background-color: rgb(250, 248, 245);
@@ -25,7 +26,7 @@
    
 }
 .imgProduct{
-    width: 80%;
+    width: 50%;
     margin: auto;
 }
 .descriptionContainer{
@@ -33,8 +34,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 1rem 15rem;
-    padding: 1rem 1rem;
+    gap: .5rem;
+    padding: 1rem ;
     background-color:#222a33;
     width: 100%;
     height: auto;
@@ -58,18 +59,38 @@
 
 .buttonContainer{
     display: flex;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: space-around;
 }
 .buttonProductContainer{
-    margin: 10px;
-    padding: 5px;
+    margin: 1px;
+    padding: .4rem;
     height: auto;
     width: auto;
-    font-size: 20px;
-    font-weight:700;
+    font-size: 15px;
+    font-weight:bold;
     border-radius: 50px;
 }
 .buttonProductContainer:hover{
+    cursor: pointer;
+    background-color:#f5a742;   
+}
+.containerBackButton{
+    margin:auto;   
+    width: 100%;
+    text-align: center;
+
+}
+.buttonBackButton{
+    margin: 25px;
+    padding: .5rem 4rem;
+    height: auto;
+    width: 50%;
+    font-size: 25px;
+    font-weight:bold;
+    border-radius: 20px
+}
+.buttonBackButton:hover{
     cursor: pointer;
     background-color:#f5a742;   
 }

@@ -19,6 +19,8 @@ function App() {
           <Routes>
             <Route path="*" element={<Navigate to="/" />} />
             <Route path="/" exact={true} element={<Home />} />
+            <Route path="/ProductOffice" element= { <ProductsView/> }/>
+            <Route path="/ProductOffice/:catId" element= { <ProductsView/> }/>
             <Route path="/detailProduct/:catId" element= { <DetailProduct/> }/>
           </Routes>
         </div>

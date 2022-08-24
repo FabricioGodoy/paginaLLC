@@ -2,9 +2,6 @@ export const Products = [
   {
     id: 1,
     category: "PC Office",
-     img: "https://github.com/FabricioGodoy/imagenes/blob/main/productos/pcOfficeFront.jpeg?raw=true",
-    img: "https://github.com/FabricioGodoy/imagenes/blob/main/productos/pcOfficeBack.jpeg?raw=true",
-    img: "https://github.com/FabricioGodoy/imagenes/blob/main/productos/pcOffice.jpeg?raw=true",
     sku: " PCI38GB250-1",
     name: "Model SC20",
     caracteristicas: [
@@ -22,9 +19,6 @@ export const Products = [
   {
     id: 2,
     category: "PC Office",
-    img: "https://github.com/FabricioGodoy/imagenes/blob/main/productos/pcOfficeBack.jpeg?raw=true",
-    img: "https://github.com/FabricioGodoy/imagenes/blob/main/productos/pcOffice.jpeg?raw=true",
-    img: "https://github.com/FabricioGodoy/imagenes/blob/main/productos/pcOfficeFront.jpeg?raw=true",
     sku: " PCR58GB250-1",
     name: "Model SC45",
     caracteristicas: [
@@ -42,9 +36,6 @@ export const Products = [
   {
     id: 3,
     category: "PC Office",
-    img: "https://github.com/FabricioGodoy/imagenes/blob/main/productos/pcOfficeFront.jpeg?raw=true",
-    img: "https://github.com/FabricioGodoy/imagenes/blob/main/productos/pcOffice.jpeg?raw=true",
-    img: "https://github.com/FabricioGodoy/imagenes/blob/main/productos/pcOfficeBack.jpeg?raw=true",
     sku: " PCI58GB250-1",
     name: "Model SC30",
     caracteristicas: [
@@ -62,9 +53,6 @@ export const Products = [
   {
     id: 4,
     category: "PC Office",
-     img: "https://github.com/FabricioGodoy/imagenes/blob/main/productos/pcOfficeFront.jpeg?raw=true",
-    img: "https://github.com/FabricioGodoy/imagenes/blob/main/productos/pcOfficeBack.jpeg?raw=true",
-    img: "https://github.com/FabricioGodoy/imagenes/blob/main/productos/pcOffice.jpeg?raw=true",
     sku: " PCR58GB250-2",
     name: "Model SC45",
     caracteristicas: [
@@ -82,9 +70,6 @@ export const Products = [
   {
     id: 5,
     category: "PC Office",
-    img: "https://github.com/FabricioGodoy/imagenes/blob/main/productos/pcOfficeBack.jpeg?raw=true",
-    img: "https://github.com/FabricioGodoy/imagenes/blob/main/productos/pcOffice.jpeg?raw=true",
-    img: "https://github.com/FabricioGodoy/imagenes/blob/main/productos/pcOfficeFront.jpeg?raw=true",
     sku: " PCI38GB250-2",
     name: "Model SC20",
     caracteristicas: [
@@ -102,9 +87,6 @@ export const Products = [
   {
     id: 6,
     category: "PC Office",
-     img: "https://github.com/FabricioGodoy/imagenes/blob/main/productos/pcOfficeFront.jpeg?raw=true",
-     img: "https://github.com/FabricioGodoy/imagenes/blob/main/productos/pcOffice.jpeg?raw=true",
-     img: "https://github.com/FabricioGodoy/imagenes/blob/main/productos/pcOfficeBack.jpeg?raw=true",
     sku: "PCR58GB250-3",
     name: "Model SC45",
     caracteristicas: [
@@ -122,9 +104,6 @@ export const Products = [
   {
     id: 7,
     category: "PC Office",
-     img: "https://github.com/FabricioGodoy/imagenes/blob/main/productos/pcOfficeFront.jpeg?raw=true",
-    img: "https://github.com/FabricioGodoy/imagenes/blob/main/productos/pcOfficeBack.jpeg?raw=true",
-    img: "https://github.com/FabricioGodoy/imagenes/blob/main/productos/pcOffice.jpeg?raw=true",
     sku: " PCI58GB250-2",
     name: "Model SC30 ",
     caracteristicas: [
@@ -142,9 +121,6 @@ export const Products = [
   {
     id: 8,
     category: "PC Office",
-    img: "https://github.com/FabricioGodoy/imagenes/blob/main/productos/pcOfficeBack.jpeg?raw=true",
-    img: "https://github.com/FabricioGodoy/imagenes/blob/main/productos/pcOffice.jpeg?raw=true",
-    img: "https://github.com/FabricioGodoy/imagenes/blob/main/productos/pcOfficeFront.jpeg?raw=true",
     sku: " PPCR58GB250-4",
     name: "Model SC45",
     caracteristicas: [

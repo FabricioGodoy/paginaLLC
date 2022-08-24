@@ -73,7 +73,26 @@ const Home = () => {
         </section>
       </article>
 
-   { <ProductsView/>}
+    <article className="containerCardHomeProduct">
+        <section className="cardHomeProduct">
+          <a href="/ProductOffice" className="linkCardHomeProduct">
+            <img
+              src="https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/productos/pcVieja.webp"
+              className="imgCardHomeProduct"
+            />
+            <h1 className='tittleCardHomeProduct'>PC Office</h1>
+          </a>
+        </section>
+        <section className="cardHomeProduct">
+          <a href="#" className="linkCardHomeProduct">
+            <img
+              src="https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/productos/pcVieja.webp"
+              className="imgCardHomeProduct"
+            />
+            <h1 className='tittleCardHomeProduct'>PC Gaming</h1>
+          </a>
+        </section>
+    </article>
     </div>
     
   );

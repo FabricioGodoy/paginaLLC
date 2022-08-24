@@ -29,6 +29,11 @@ export const ProductMap = ({ stock }) => {
           </article>
         ))}
       </div>
+          <div className="containerBackButton">
+           <Link to={'/'}>
+                  <button className="buttonBackButton">Back</button>
+           </Link>
+          </div> 
     </>
   );
 };
