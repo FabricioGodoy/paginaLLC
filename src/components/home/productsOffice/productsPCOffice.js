@@ -1,9 +1,9 @@
 import React, { useEffect, useState} from "react";
 import { useParams } from "react-router-dom";
-import { ProductMap } from "./productMap";
-import { RequestProducts } from "../../helpers/requestDataProducts";
+import { ProductMap } from "./productPCOfficeMap";
+import { RequestProducts } from "../../helpers/requestDataPCOffice";
 
-export function ProductsView(){
+export function ProductsOfficeView(){
     const [loading, setLoading] = useState(false)
     const [stock, setStock] = useState([])
     const { catId } = useParams()

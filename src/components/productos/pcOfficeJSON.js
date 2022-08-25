@@ -1,4 +1,4 @@
-export const Products = [
+export const pcOfficeJSON = [
   {
     id: 1,
     category: "PC Office",

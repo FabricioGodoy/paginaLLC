@@ -6,8 +6,8 @@ import {
 } from "react-router-dom";
 import Header from "./components/navbar/Navbar";
 import Home from "./components/home/home";
-import { ProductsView } from "./components/home/products/products"
-import { DetailProduct } from "./components/home/productDetail/productDetail"
+import { ProductsOfficeView } from "./components/home/productsOffice/productsPCOffice"
+import { DetailProduct } from "./components/home/productsOfficeDetail/productDetail"
 
 
 function App() {
@@ -19,8 +19,8 @@ function App() {
           <Routes>
             <Route path="*" element={<Navigate to="/" />} />
             <Route path="/" exact={true} element={<Home />} />
-            <Route path="/ProductOffice" element= { <ProductsView/> }/>
-            <Route path="/ProductOffice/:catId" element= { <ProductsView/> }/>
+            <Route path="/ProductOffice" element= { <ProductsOfficeView/> }/>
+            <Route path="/ProductOffice/:catId" element= { <ProductsOfficeView/> }/>
             <Route path="/detailProduct/:catId" element= { <DetailProduct/> }/>
           </Routes>
         </div>

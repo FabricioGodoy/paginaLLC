@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./productDetail.css";
-import SlickPCOfficeDetails from "../productDetail/sliderProductDetail";
+import SlickPCOfficeDetails from "./sliderProductDetail";
 
 export const ProductDetailMap = ({ product }) => {
   return (

@@ -1,7 +1,7 @@
 import React, { useEffect, useState} from "react";
 import { useParams } from "react-router-dom";
 import { ProductDetailMap } from "./productDetailMap";
-import { RequestProducts } from "../../helpers/requestDataProducts";
+import { RequestProducts } from "../../helpers/requestDataPCOffice";
 
 export function DetailProduct() {
     const [loading, setLoading] = useState(false)

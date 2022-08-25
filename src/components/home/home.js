@@ -1,5 +1,5 @@
 import React from "react";
-import { ProductsView } from "./products/products";
+import { ProductsView } from "./productsOffice/productsPCOffice";
 import "./home.css";
 import logoCard from "../../images/logos/confianza_cuotas.svg";
 import logoPickup from "../../images/logos/confianza_retiro.svg";
@@ -86,7 +86,7 @@ const Home = () => {
         <section className="cardHomeProduct">
           <a href="#" className="linkCardHomeProduct">
             <img
-              src="https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/productos/pcVieja.webp"
+              src="https://http2.mlstatic.com/D_NQ_NP_902109-MLA43661191444_102020-O.webp"
               className="imgCardHomeProduct"
             />
             <h1 className='tittleCardHomeProduct'>PC Gaming</h1>

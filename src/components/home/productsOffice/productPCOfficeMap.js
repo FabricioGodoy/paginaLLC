@@ -1,8 +1,8 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import "./products.css";
-import SlickPCOffice from "./sliderProduct";
+import "./productsPCOffice.css";
+import SlickPCOffice from "./sliderProductPCOffice";
 
 export const ProductMap = ({ stock }) => {
   console.log(stock);

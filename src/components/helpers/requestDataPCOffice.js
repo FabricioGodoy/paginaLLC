@@ -1,9 +1,9 @@
-import { Products } from "../productos/productsJSON";
+import { pcOfficeJSON } from "../productos/pcOfficeJSON";
 
 export function RequestProducts (){
     return new Promise ( (res, reject) => {
         setTimeout( () =>{
-            res(Products)
+            res(pcOfficeJSON)
         }, 0)
     })
 }
