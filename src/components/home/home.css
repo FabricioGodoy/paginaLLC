@@ -153,10 +153,12 @@
 }
 .imgCardHomeProduct{
  width: 50%;
+ border: 1px solid #222a33;
 }
 .tittleCardHomeProduct{
  font-size: 35px;
- background-color:#222a33;
+ background-color:#e7e7e7;
+ border: 1px solid #222a33;
  width: 50%;
  margin: auto;
  color: #f5a742;   
