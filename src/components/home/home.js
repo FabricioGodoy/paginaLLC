@@ -74,8 +74,9 @@ const Home = () => {
       </article>
 
     <article className="containerCardHomeProduct">
-        <section className="cardHomeProduct">
-          <a href="/ProductOffice" className="linkCardHomeProduct">
+        <section className="cardHomeProduct" >
+          <a
+           href="/ProductsOffice" className="linkCardHomeProduct">
             <img
               src="https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/productos/pcVieja.webp"
               className="imgCardHomeProduct"
@@ -83,16 +84,21 @@ const Home = () => {
             <h1 className='tittleCardHomeProduct'>PC Office</h1>
           </a>
         </section>
+        
         <section className="cardHomeProduct">
-          <a href="#" className="linkCardHomeProduct">
-            <img
-              src="https://http2.mlstatic.com/D_NQ_NP_902109-MLA43661191444_102020-O.webp"
+          <a href="/ProductsGaming" className="linkCardHomeProduct" > 
+            <img 
+              src="https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcGaming/case_111r_lateral.png?raw=true"
               className="imgCardHomeProduct"
             />
             <h1 className='tittleCardHomeProduct'>PC Gaming</h1>
           </a>
         </section>
     </article>
+
+
+
+    
     </div>
     
   );

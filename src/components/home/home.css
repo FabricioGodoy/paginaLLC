@@ -146,14 +146,15 @@
 }
 .cardHomeProduct{
  width: 50%;
- margin: auto;
+  
 }
 .linkCardHomeProduct{
   text-decoration: none;
 }
 .imgCardHomeProduct{
- width: 50%;
- border: 1px solid #222a33;
+  width: 50%;
+  height: auto;
+  border: 1px solid #222a33;
 }
 .tittleCardHomeProduct{
  font-size: 35px;

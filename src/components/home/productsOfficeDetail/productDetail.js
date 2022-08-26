@@ -6,7 +6,6 @@ import { RequestProducts } from "../../helpers/requestDataPCOffice";
 export function DetailProduct() {
     const [loading, setLoading] = useState(false)
     const [product, setProducto] = useState([])
-
     const { catId } = useParams()
 
     useEffect(() => {

@@ -1,6 +1,6 @@
 import React, { useEffect, useState} from "react";
 import { useParams } from "react-router-dom";
-import { ProductMap } from "./productPCOfficeMap";
+import { ProductMap } from "./productsPCOfficeMap";
 import { RequestProducts } from "../../helpers/requestDataPCOffice";
 
 export function ProductsOfficeView(){

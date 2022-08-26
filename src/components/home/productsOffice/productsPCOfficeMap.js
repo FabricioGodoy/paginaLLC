@@ -1,24 +1,21 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./productsPCOffice.css";
-import SlickPCOffice from "./sliderProductPCOffice";
+import SlickPCOffice from "./sliderProductsPCOffice";
 
 export const ProductMap = ({ stock }) => {
-  console.log(stock);
   return (
     <>
-      {" "}
-      <h1 className="titleProduct">PCs Office</h1>
+      <h1 className="titleProduct">PC's Office</h1>
       <div className="containerProduct">
         {stock.map((article) => (
           <article key={article.id} className="productContainer">
-            <SlickPCOffice/>
+            <SlickPCOffice />
             <section className="descriptionContainer">
-                <p>{article.category}</p>
-                <h3>{article.name}</h3>
+              <p>{article.category}</p>
+              <h3>{article.name}</h3>
               <div className="buttonContainer">
-                <Link to={`/detailProduct/${article.id}`}>
+                <Link to={`/detailProductOffice/${article.id}`}>
                   <button className="buttonProductContainer">More Info</button>
                 </Link>
                 <Link to={`#`}>
@@ -29,11 +26,11 @@ export const ProductMap = ({ stock }) => {
           </article>
         ))}
       </div>
-          <div className="containerBackButton">
-           <Link to={'/'}>
-                  <button className="buttonBackButton">Back</button>
-           </Link>
-          </div> 
+      <div className="containerBackButton">
+        <Link to={"/"}>
+          <button className="buttonBackButton">Back</button>
+        </Link>
+      </div>
     </>
   );
 };
