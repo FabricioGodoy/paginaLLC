@@ -3,10 +3,15 @@
     flex-wrap: wrap;
     width: 100%;
     margin:auto;
-    margin-top: 10px;
     text-align: center;
     justify-content: space-around;
-    background-color: grey;
+    color: white;
+    background-color:  #222a33;
+}
+
+.footerTittleInput{
+  width: 100%;
+  background-color: #222222;
 }
 .tittleFooter{
     margin-top: 30px;
@@ -15,28 +20,32 @@
 .containerInputFooter{
     display: flex;
     height: 3rem;
-    margin: auto ;
     margin-top: 15px;
     margin-bottom: 15px;
+    justify-content: center;
 }
 .containerInputFooter input{
-    width: 100%;
+    width: 30%;
     height: 3rem;
-    margin: auto;
+    border-radius: 10px;
 }
 .containerInputFooter button{
-    width: 10%;
+    width: 5%;
     height: 3rem;
-    margin: auto;
     background-color: #f7a902;
     border-radius: 10px;
-    cursor: pointer
+    cursor: pointer;
+    font-size:15px;
+    transition: 150ms;
 }
-
+.containerInputFooter button:hover{
+  background-color: grey;
+  color: #f7a902;
+  font-weight: bold;
+}
 .logolinkfooter{
     width: 100%;
 }
-
 .logoFooter {
     height: 4em;
     margin: 1rem 2rem 0.5rem;
@@ -46,15 +55,17 @@
     text-decoration: none;
     color: black;
     font-weight: bold;
+    color: white;
   }
-  .logoi img{
+ 
+  .logoimg{
     width: 35px;
     margin: 1rem 2rem;
   }
   .copyright{
     width: 100%;
     margin: auto;
-    background-color: rgb(68, 67, 67);
+    background-color:#222222;
   }
   .copyrightFooter{
     margin-top: 30px;

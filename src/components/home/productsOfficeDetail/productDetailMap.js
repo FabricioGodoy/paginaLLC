@@ -22,7 +22,7 @@ export const ProductDetailMap = ({ product }) => {
               </article>
               <hr />
               <div className="containerButtonDetailProduct">
-                <Link to={'/ProductOffice'}>
+                <Link to={'/ProductsOffice'}>
                   <button className="buttonDetailProduct">Back</button>
                 </Link>
                 <Link to={`#`}>

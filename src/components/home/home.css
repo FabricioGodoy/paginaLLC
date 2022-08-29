@@ -92,7 +92,7 @@
   margin: 2px;
   transition: all 1500ms;
 }
-.iconsQuickAccess:hover {
+.cardQuickAccess:hover img {
   transform: rotateY(-360deg);
 }
 .cardQuickAccess a {
@@ -167,4 +167,27 @@
 .tittleCardHomeProduct:hover {
   background-color: #f5a742;
   color:#222a33;
+}
+.imgBanerFooter{
+  width: 100%;
+  height: 20rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+.imgBanerFooter:hover{
+  box-shadow: 3px 1px 5px 1px black
+}
+.containerLogoRedirect{
+  display: flex;
+  width: 100%;
+  justify-content:space-evenly;
+  background-color: #222a33;
+}
+.logoRedirect{
+  border-radius:10000px ;
+  width: 15rem;
+  margin: 2rem 0rem 2rem 0rem;
+}
+.logoRedirect:hover{
+  box-shadow: 1px 5px 15px 10px rgb(90, 88, 88);
 }
