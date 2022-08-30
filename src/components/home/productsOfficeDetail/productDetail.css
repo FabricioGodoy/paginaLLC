@@ -19,7 +19,7 @@
 .containerListDetail {
  display: flex;
  flex-wrap: nowrap;
-  width: 100%;
+  width: 60%;
   text-align: center;
   justify-content: space-evenly;
 
@@ -70,3 +70,15 @@
   cursor: pointer;
   background-color:#f5a742;
 }
+
+
+@media (max-width: 1200px){
+  .containerListDetail{
+      width: 22%;
+  }
+  .imgProductDetailSlick{
+      width: 70%;
+      margin: auto;
+  }
+}
+

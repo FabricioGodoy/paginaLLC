@@ -19,7 +19,6 @@
     flex-wrap: wrap;
     width: 15%;
     margin: 3rem;
-    padding: 2rem;
     text-align: center;
     padding: 2px;
     background-color: rgb(250, 248, 245);
@@ -99,4 +98,46 @@
 .buttonBackButton:hover{
     cursor: pointer;
     background-color:#f5a742;   
+}
+
+
+@media (max-width: 1200px){
+    .productContainer{
+        width: 22%;
+    }
+    .imgProduct{
+        width: 70%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 1000px){
+    .productContainer{
+        width: 30%;
+    }
+    .imgProduct{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media (max-width:700px){
+    .productContainer{
+        width: 50%;
+    }
+    .imgProduct{
+        width: 100%;
+        margin: auto;
+    }
+    
+}
+@media (max-width:400px){
+    .productContainer{
+        width: 100%;
+    }
+    .imgProduct{
+        width: 100%;
+        margin: auto;
+    }
+    
 }

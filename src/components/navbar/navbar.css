@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   height: auto;
-  background-color: black;
+  background-color: #1d1d20;
   color: white;
   justify-content: space-between;
   text-decoration: none;
@@ -69,6 +69,7 @@
   height: 7vh;
   border-radius: 10px;
   width: 25vw;
+  font-size: 17px;
 }
 /* fin styles shearch bar */
 .cart {
@@ -83,13 +84,13 @@
 .bottomNavbar {
   display: flex;
   width: 100%;
-  justify-content: space-around;
+  justify-content: center;
   background-color: #2b2a2f;
   margin: auto;
 }
 .bottomNavbar li {
   height: 3vh;
-  width: 10vw;
+  width: 12vw;
   text-align:center;
   margin: 5em 10em 1em 1em;
 }
@@ -102,4 +103,11 @@
   border-radius: 50px;
   width: 2rem;
   height: 2rem;
+}
+
+
+@media (max-width: 1000px){
+  .bottomNavbar li{
+    height: 5vh;
+  }
 }

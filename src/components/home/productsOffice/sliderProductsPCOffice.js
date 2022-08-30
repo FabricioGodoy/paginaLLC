@@ -8,7 +8,7 @@ export const SlickPCOffice= () => {
     }
     return (
      
-        <Slider {...settings}  style={{ width: "20vw"}}>
+        <Slider {...settings}  style={{ width: "25vw"}}>
           <div>
             <img className='imgProduct' src="https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcOffice/pcOffice.jpeg?raw=true" />
           </div>

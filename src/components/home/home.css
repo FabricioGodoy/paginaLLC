@@ -181,13 +181,73 @@
   display: flex;
   width: 100%;
   justify-content:space-evenly;
-  background-color: #222a33;
+  background-color:#27262b;
 }
 .logoRedirect{
   border-radius:10000px ;
   width: 15rem;
-  margin: 2rem 0rem 2rem 0rem;
+  margin: 1rem 0rem 1rem 0rem;
 }
 .logoRedirect:hover{
   box-shadow: 1px 5px 15px 10px rgb(90, 88, 88);
+}
+
+@media (max-width: 1000px) {
+  .cardQuickAccess{
+    display: none;
+  }
+  .cardSliderHomeProducts{
+    display: none;
+  }
+  .containerCardHomeProduct{
+    margin-top: -10rem;
+  }
+}
+
+
+@media (max-width: 1000px){
+  .containerCardHomeProduct{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+  }
+  .cardHomeProduct{
+    margin: 15px;
+    width: 80%;
+  }
+  .banner{
+    height: 40vh;
+  }
+  .imgBanerFooter{
+    display: none;
+  }
+}
+
+
+@media (max-width: 800px){
+  .containerLogoRedirect{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+  }
+  .logoRedirect{
+    width: 35%;
+  }
+  .banner{
+    display: none;
+  }
+   .containerCardHomeProduct{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+  }
+  .cardHomeProduct{
+    margin: 25px;
+    width: 100%;
+  }
+  
 }

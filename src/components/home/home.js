@@ -80,7 +80,7 @@ const Home = () => {
               src="https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/productos/pcVieja.webp"
               className="imgCardHomeProduct"
             />
-            <h1 className="tittleCardHomeProduct">PC Office</h1>
+            <h1 className="tittleCardHomeProduct">Office</h1>
           </a>
         </section>
 
@@ -90,7 +90,7 @@ const Home = () => {
               src="https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcGaming/case_111r_lateral.png?raw=true"
               className="imgCardHomeProduct"
             />
-            <h1 className="tittleCardHomeProduct">PC Gaming</h1>
+            <h1 className="tittleCardHomeProduct">Gaming</h1>
           </a>
         </section>
       </article>
@@ -115,7 +115,7 @@ const Home = () => {
           />
         </a>
       </div>
-
+<hr/>
       <a href="#">
         <img
           src="https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/SN-LLC/banner%20amazon.webp"
