@@ -1,53 +1,48 @@
-import './navbar.css';
-import logo from "../../images/logos/logo-sn.png" ;
+import "./navbar.css";
+import logo from "../../images/logos/logo-sn.png";
 import banderaArg from "../../images/logos/banderaArg.jpg";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
-const Header =()=>{
-  return(
-    <header className="navbar">
-        <div className='containerNavbar'>
-          <a href="/"><img src={logo} alt="logo navbar" className='logoNavbar'/></a>
-              <div className='list'>
-                <ul className="left-nav-bar">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">BRANDS</a></li>
-                    <li><a href="#">SALE PRODUCTS</a></li>
-                    <li><a href="#">MESSAGE</a></li>
-                </ul>
-              </div>
-                  <br/>
-              <div className='list'>
-                <section className="nav-bar-busqueda">
-                    <input type="search" placeholder="   Search products, brands and more.."/>
-                </section>
-              </div>
-                  <br/>
-              <div className='list'>
-                 <ul className="rigth-nav-bar">
-                     <li><a href="http://www.shopnow.com.ar" className='tittleSNArg'>
-                     <img src={banderaArg} alt="logo navbar" className='iconFlagArg'/>
-                     SHOPNOW ARGENTINA</a></li>
-                 </ul>
-                 <section>
-                     <img src="https://img.icons8.com/glyph-neue/64/FFFFFF/shopping-cart.png" className='cart'/>
-                 </section>
-              </div>
-        </div>
-         <br/>
-        <div className='bottomNavbar'>
-            <ul>
-               <li><a href="#">Router</a></li>
-               <li><a href="#">Switches</a></li>
-               <li><a href="#">Telephone</a></li>
-               <li><a href="#">Gateway</a></li>
-               <li><a href="#">Antennas</a></li>
-               <li><a href="#">Access point</a></li>
-            </ul>
-        </div>
+const Navbar = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  return (
+    <nav className="navbar">
+      <a href="/">
+        <img src={logo} alt="logo navbar" className="logoNavBar" />
+      </a>
+
       
-    </header>
-  )
-}
+        <ul
+          className={isMobile ? "nav-Links-mobile" : "nav-Links"}
+          onClick={() => setIsMobile(false)}
+        >
+          <Link to="/" className="homeNavBar">
+            <li>HOME</li>
+          </Link>
+          <Link to="/" className="brandsNavBar">
+            <li>BRANDS</li>
+          </Link>
+          <Link to="/" className="saleProductsNavBar">
+            <li>SALE PRODUCTS</li>
+          </Link>
+          <Link to="/" className="messageNavBar">
+            <li>MESSAGE</li>
+          </Link>
+        </ul>
+        <button className="mobile-menu-icon"
+          onClick={() => {setIsMobile(!isMobile)}}
+        >
+          {isMobile ? (
+            <i className="fas fa-times"></i>
+          ) : (
+            <i className="fas fa-bars"></i>
+          )}
+        </button>
+    
+    </nav>
+  );
+};
 
-export default  Header
+export default Navbar;

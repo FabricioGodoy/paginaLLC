@@ -4,7 +4,7 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
-import Header from "./components/navbar/Navbar";
+import Navbar from "./components/navbar/Navbar";
 import Home from "./components/home/home";
 import { Footer } from "./components/footer/footer";
 import { ProductsOfficeView } from "./components/home/productsOffice/productsPCOffice"
@@ -17,7 +17,7 @@ function App() {
   return (
     <Router>
       <div className="container">
-        <Header />
+        <Navbar />
         <div>
           <Routes>
             <Route path="*" element={<Navigate to="/" />} />

@@ -1,113 +1,74 @@
 .navbar {
   display: flex;
-  flex-wrap: wrap;
-  height: auto;
+  justify-content: space-around;
+  align-items: center;
+  height: 8em;
   background-color: #1d1d20;
   color: white;
-  justify-content: space-between;
-  text-decoration: none;
-  flex-direction: row;
-  width: 100% ;
-}
-.containerNavbar {
-  display: flex;
-  flex-wrap: nowrap;
-  width: 100vw ;
-}
-.logoNavbar {
-  height: 4em;
-  margin: 1rem 2rem 0.5rem;
-  padding: auto;
 }
 
-.navbar li {
-  position: relative;
-  font-size: 2px;
-  line-height: 20px;
-  color: #f9f9f9;
+.logoNavBar {
+  width: 10em;
+}
+.nav-Links {
+  display: flex;
+  justify-content: flex-end;
   list-style: none;
-  font-weight: bold;
-  float: left;
-  text-align: center;
+  width: 75%;
 }
-.navbar li:hover {
-  border-bottom: 2px solid #f7a902;
-}
-
-.list {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: space-around;
-  margin-top: 2em;
-}
-.left-nav-bar a {
-  position: relative;
-  text-decoration: none;
-  list-style: none;
-  color: white;
-  font-size: 15px;
-  margin: 1rem 1rem;
-}
-
-.rigth-nav-bar a {
-  display: flex;
-  flex-direction: column;
+.homeNavBar,
+.brandsNavBar,
+.saleProductsNavBar,
+.messageNavBar {
   text-decoration: none;
   color: white;
-  font-size: 15px;
-  align-items: center;
-  margin-top: -1vh;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
 }
-
-/* styles shearch bar */
-.nav-bar-busqueda {
-  justify-content: space-around;
-  margin-top: -1.5em;
+.mobile-menu-icon {
+  display: none;
 }
-.nav-bar-busqueda input {
-  height: 7vh;
-  border-radius: 10px;
-  width: 25vw;
-  font-size: 17px;
-}
-/* fin styles shearch bar */
-.cart {
-  width: 2rem;
-  height: 2rem;
-  margin-top: -0.5em;
-  margin: auto;
-}
-.cart:hover {
-  border-bottom: 1px solid #f7a902;
-}
-.bottomNavbar {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  background-color: #2b2a2f;
-  margin: auto;
-}
-.bottomNavbar li {
-  height: 3vh;
-  width: 12vw;
-  text-align:center;
-  margin: 5em 10em 1em 1em;
-}
-.bottomNavbar a {
-  color: white;
-  text-decoration: none;
-  font-size: 16px;
-}
-.iconFlagArg {
-  border-radius: 50px;
-  width: 2rem;
-  height: 2rem;
-}
-
-
-@media (max-width: 1000px){
-  .bottomNavbar li{
-    height: 5vh;
+@media screen and (max-width: 780px) {
+  .logoNavBar {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 25px;
+  }
+  .nav-Links {
+    display: none;
+  }
+  .nav-Links-mobile {
+    position: absolute;
+    display: block;
+    list-style: none;
+    background-color:  #222a33;
+    left: 0;
+    top: 8em;
+    transition: all 0.5s ease-out;
+    width: 100%;
+  }
+  .homeNavBar,
+  .brandsNavBar,
+  .saleProductsNavBar,
+  .messageNavBar {
+    color: white;
+    text-align: center;
+    padding: 32px;
+    width: 100%;
+    transition: all 0.5s ease;
+  }
+  .mobile-menu-icon{
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    background-color:  #222a33;
+    border: none;
+    outline: none;
+    top: 15px;
+    right: 25px;
   }
 }

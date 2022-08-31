@@ -19,9 +19,8 @@
 .containerListDetail {
  display: flex;
  flex-wrap: nowrap;
-  width: 60%;
-  text-align: center;
-  justify-content: space-evenly;
+  width: 100%;
+  justify-content: space-around
 
 }
 .containerImg{
