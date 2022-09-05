@@ -1,13 +1,12 @@
-
-  .titleDetailProduct {
-    text-align: center;   
-    font-size: 400%;
-    justify-content: space-around;
-    padding: 1rem;
-  }
+.titleDetailProduct {
+  text-align: center;
+  font-size: 400%;
+  justify-content: space-around;
+  padding: 1rem;
+}
 .containerProductDetail {
   position: relative;
-  display: flex ;
+  display: flex;
   flex-wrap: wrap;
   margin: auto;
   width: 100%;
@@ -17,39 +16,40 @@
 }
 
 .containerListDetail {
- display: flex;
- flex-wrap: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
   width: 100%;
-  justify-content: space-around
-
+  justify-content: space-around;
 }
-.containerImg{
+.containerImg {
   display: flex;
   width: 4%;
 }
-.containerList{
+.containerList {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
-.imgProductDetailSlick{
+/* .imgProductDetailSlick {
   width: 100%;
   margin: auto;
   padding: 1rem;
-}
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+} */
 
 .listDetail {
-  display: flex ;
+  display: flex;
   margin: auto;
   text-align: justify;
   font-weight: bold;
   font-size: 17px;
   width: 100%;
-  padding:1rem;
+  padding: 1rem;
   height: auto;
 }
-.listDetail:hover{
+.listDetail:hover {
   background-color: rgb(221, 219, 219);
-  
 }
 
 .containerButtonDetailProduct {
@@ -67,17 +67,31 @@
 }
 .buttonDetailProduct:hover {
   cursor: pointer;
-  background-color:#f5a742;
+  background-color: #f5a742;
 }
 
-
-@media (max-width: 1200px){
-  .containerListDetail{
-      width: 22%;
+@media (max-width: 1200px) {
+  .containerListDetail {
+    width: 100%;
   }
-  .imgProductDetailSlick{
-      width: 70%;
-      margin: auto;
+  .imgProductDetailSlick {
+    width: 50%;
+    margin: auto;
+  }
+  .containerList{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 3rem;
+    justify-content: center;
   }
 }
 
+@media (max-width: 1000px) {
+  .containerListDetail {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+}

@@ -6,7 +6,9 @@
   background-color: #1d1d20;
   color: white;
 }
-
+.navbar ul{
+  z-index: 9;
+}
 .logoNavBar {
   width: 10em;
 }
@@ -47,7 +49,7 @@
     background-color:  #222a33;
     left: 0;
     top: 8em;
-    transition: all 0.5s ease-out;
+    transition: 5s ease-out;
     width: 100%;
   }
   .homeNavBar,
@@ -58,7 +60,7 @@
     text-align: center;
     padding: 32px;
     width: 100%;
-    transition: all 0.5s ease;
+    transition: 5s ease;
   }
   .mobile-menu-icon{
     display: block;

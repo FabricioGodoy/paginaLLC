@@ -7,7 +7,7 @@ export const SlickPCGamingDetailGabinete111 = () => {
     }
     return (
     
-        <Slider {...settings}  style={{ width: "30vw"}}>
+        <Slider {...settings}  style={{ width: "25rem" }}>
           <div>
             <img className='imgProductGamingDetail' src="https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcGaming/case_111r_perfil.png?raw=true" />
           </div>
