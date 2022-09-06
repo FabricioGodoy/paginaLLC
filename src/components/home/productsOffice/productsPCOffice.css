@@ -32,7 +32,7 @@
     
 }
 .imgProduct{
-    width: 50%;
+    width: 15rem;
     margin: auto;
 }
 .descriptionContainer{
@@ -106,7 +106,7 @@
         width: 22%;
     }
     .imgProduct{
-        width: 70%;
+        height: 13rem;
         margin: auto;
     }
 }

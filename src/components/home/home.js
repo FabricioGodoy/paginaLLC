@@ -77,7 +77,7 @@ const Home = () => {
         <section className="cardHomeProduct">
           <a href="/ProductsOffice" className="linkCardHomeProduct">
             <img
-              src="https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/productos/pcVieja.webp"
+              src="https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/flyer_office.png?raw=true"
               className="imgCardHomeProduct"
             />
             <h1 className="tittleCardHomeProduct">Office</h1>
@@ -87,7 +87,7 @@ const Home = () => {
         <section className="cardHomeProduct">
           <a href="/ProductsGaming" className="linkCardHomeProduct">
             <img
-              src="https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcGaming/case_111r_lateral.png?raw=true"
+              src="https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/flyer_gamer.png?raw=true"
               className="imgCardHomeProduct"
             />
             <h1 className="tittleCardHomeProduct">Gaming</h1>

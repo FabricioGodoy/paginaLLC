@@ -10,7 +10,7 @@ export const ProductMap = ({ stock }) => {
       <div className="containerProduct">
         {stock.map((article) => (
           <article key={article.id} className="productContainer">
-            <SlickPCOffice />
+            <SlickPCOffice className="SliderContainer"/>
             <section className="descriptionContainer">
               <p>{article.category}</p>
               <h3>{article.name}</h3>

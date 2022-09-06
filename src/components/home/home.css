@@ -141,26 +141,25 @@
   display: flex;
   flex-wrap: wrap; 
   margin: 3rem auto ;
-  justify-content: space-around;
+  justify-content: space-evenly;
   text-align: center;
 }
 .cardHomeProduct{
- width: 50%;
+ width: 35%;
   
 }
 .linkCardHomeProduct{
   text-decoration: none;
 }
 .imgCardHomeProduct{
-  width: 50%;
-  height: auto;
+  width: 20vw;
   border: 1px solid #222a33;
 }
 .tittleCardHomeProduct{
  font-size: 35px;
  background-color:#e7e7e7;
  border: 1px solid #222a33;
- width: 50%;
+ width: 20vw;
  margin: auto;
  color: #f5a742;   
 } 
@@ -192,7 +191,7 @@
   box-shadow: 1px 5px 15px 10px rgb(90, 88, 88);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .cardQuickAccess{
     display: none;
   }
@@ -201,6 +200,13 @@
   }
   .containerCardHomeProduct{
     margin-top: -10rem;
+  }
+  .imgCardHomeProduct{
+    width: 25vw;
+    border: 1px solid #222a33;
+  }
+  .tittleCardHomeProduct{
+    width: 25vw;
   }
 }
 
@@ -221,6 +227,13 @@
   }
   .imgBanerFooter{
     display: none;
+  }
+  .imgCardHomeProduct{
+    width: 30vw;
+    border: 1px solid #222a33;
+  }
+  .tittleCardHomeProduct{
+    width: 30vw;
   }
 }
 
@@ -248,6 +261,13 @@
   .cardHomeProduct{
     margin: 25px;
     width: 100%;
+  }
+  .imgCardHomeProduct{
+    width: 40vw;
+    border: 1px solid #222a33;
+  }
+  .tittleCardHomeProduct{
+    width: 40vw;
   }
   
 }

@@ -11,7 +11,7 @@ export const ProductsPCGamingMap = ({ stockGaming }) => {
       <h1 className="titleProduct"> PC's Gaming</h1>
       <div className=" containerProduct">
         {stockGaming.map((article) => (
-          <article key={article.id} className="productContainer">
+          <article key={article.id} className="productContainerGammig">
            { article.gabinete === 100 ? <SlickPCGamingGabinete100 /> : <SlickPCGamingGabinete111 /> }
             <section className="descriptionContainer">
               <p> {article.category}</p>
