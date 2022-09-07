@@ -11,7 +11,7 @@ import { ProductsOfficeView } from "./components/home/productsOffice/productsPCO
 import { DetailProduct } from "./components/home/productsOfficeDetail/productDetail"
 import { ProductsGamingView } from "./components/home/productsGaming/productsPCGaming" 
 import { ProductsGamingDetail } from  "./components/home/productsGamingDetail/productsGamingDetail"
-
+import { Contact } from "./components/contact/contact.js"
 
 function App() {
   return (
@@ -28,6 +28,7 @@ function App() {
             <Route path="/ProductsGaming" element= { <ProductsGamingView/> }/>
             <Route path="/ProductsGaming/:catId" element= { <ProductsGamingView/> }/>
             <Route path="/detailProductGaming/:catId" element= { <ProductsGamingDetail/> }/>
+            <Route path="/Contact" element= { <Contact/> }/> 
           </Routes>
         </div>
         <Footer />  

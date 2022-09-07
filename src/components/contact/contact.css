@@ -1,0 +1,31 @@
+.containerContact {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.containerTittleContact {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  background-color: #161d26;
+  color: white;
+  height: 20vh;
+  text-align:left;
+  justify-content: center;
+}
+.containerTittleContact h1,
+ .containerTittleContact h3{
+
+    margin-left: 10rem;
+}
+
+
+.formContactContainer {
+    margin: 50px;
+    width: 100%;
+}
+.formContact {
+    width: 100vw;
+}

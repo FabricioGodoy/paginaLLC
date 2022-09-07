@@ -22,12 +22,12 @@ const Navbar = () => {
             <li>HOME</li>
           </Link>
           <Link to="/" className="brandsNavBar">
-            <li>BRANDS</li>
+            <li>BRANDS⇩</li>
           </Link>
           <Link to="/" className="saleProductsNavBar">
             <li>SALE PRODUCTS</li>
           </Link>
-          <Link to="/" className="messageNavBar">
+          <Link to="/Contact" className="messageNavBar">
             <li>MESSAGE</li>
           </Link>
         </ul>
