@@ -45,6 +45,7 @@
     width: 100%;
     height: auto;
     border-radius: 0px 0px 50px 50px;
+    flex-direction: column;
 }
 .descriptionContainer h3{
     text-align: center;
