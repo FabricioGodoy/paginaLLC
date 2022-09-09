@@ -8,16 +8,16 @@ export const SlickPCOffice= () => {
     }
     return (
      
-        <Slider {...settings}  style={{ width: "25vw"}}>
-          <div>
-            <img className='imgProduct' src="https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcOffice/pcOffice.jpeg?raw=true" />
-          </div>
-          <div>
-            <img className='imgProduct' src="https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcOffice/pcOfficeFront.jpeg?raw=true" />
-          </div>
-          <div>
-            <img className='imgProduct' src="https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcOffice/pcOfficeBack.jpeg?raw=true" />
-          </div>
+        <Slider {...settings}  style={{ width: "100%"}}>
+            <div>
+              <img className='imgProduct' src="https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcOffice/pcOffice.jpeg?raw=true" />
+            </div>
+            <div>
+              <img className='imgProduct' src="https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcOffice/pcOfficeFront.jpeg?raw=true" />
+            </div>
+            <div>
+              <img className='imgProduct' src="https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcOffice/pcOfficeBack.jpeg?raw=true" />
+            </div>
         </Slider>
     );
   }

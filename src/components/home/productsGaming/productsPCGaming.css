@@ -32,8 +32,7 @@
     
 }
 .imgProductGaming{
-    width: 15rem;
-    margin: auto;
+    width: 100%;
 }
 .descriptionContainer{
     position: relative;
@@ -93,7 +92,8 @@
     width: 50%;
     font-size: 25px;
     font-weight:bold;
-    border-radius: 20px
+    border-radius: 20px;
+    border: solid 1px;
 }
 .buttonBackButton:hover{
     cursor: pointer;
@@ -106,39 +106,38 @@
     .productContainerGammig{
         width: 22%;
     }
-    .imgProductGaming{
-        height: 13rem;
-        margin: auto;
-    }
+  /*   .imgProductGaming{
+        width: 70%;
+        margin: 0 10% ;
+    } */
 }
 
 @media (max-width: 1000px){
     .productContainerGammig{
         width: 30%;
     }
-    .imgProductGaming{
-        width: 80%;
-        margin: auto;
-    }
+  /*   .imgProductGaming{
+        width: 100%;
+        margin: 0 10% ;
+    } */
 }
 
 @media (max-width:700px){
     .productContainerGammig{
         width: 50%;
     }
-    .imgProductGaming{
-        width: 100%;
-        margin: auto;
-    }
+   /*  .imgProductGaming{
+        width: 15rem;
+    } */
     
 }
 @media (max-width:400px){
     .productContainerGammig{
         width: 100%;
     }
-    .imgProductGaming{
+  /*   .imgProductGaming{
         width: 100%;
-        margin: auto;
-    }
+        margin: 0 10%;
+    } */
     
 }

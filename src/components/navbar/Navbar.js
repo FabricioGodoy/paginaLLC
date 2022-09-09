@@ -21,12 +21,12 @@ const Navbar = () => {
           <Link to="/" className="homeNavBar">
             <li>HOME</li>
           </Link>
-          <Link to="/" className="brandsNavBar">
+          {/* <Link to="/" className="brandsNavBar">
             <li>BRANDS⇩</li>
           </Link>
           <Link to="/" className="saleProductsNavBar">
             <li>SALE PRODUCTS</li>
-          </Link>
+          </Link> */}
           <Link to="/Contact" className="messageNavBar">
             <li>MESSAGE</li>
           </Link>

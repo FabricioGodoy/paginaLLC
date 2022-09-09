@@ -12,6 +12,7 @@ export const ProductsPCGamingMap = ({ stockGaming }) => {
       <div className=" containerProduct">
         {stockGaming.map((article) => (
           <article key={article.id} className="productContainerGammig">
+          <Link to={`/detailProductGaming/${article.id}`} className="linkProduct">
            { article.gabinete === 100 ? <SlickPCGamingGabinete100 /> : <SlickPCGamingGabinete111 /> }
             <section className="descriptionContainer">
               <p> {article.category}</p>
@@ -25,6 +26,7 @@ export const ProductsPCGamingMap = ({ stockGaming }) => {
                 </Link>
               </div>
             </section>
+            </Link>
           </article>
         ))}
       </div>

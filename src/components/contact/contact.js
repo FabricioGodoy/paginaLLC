@@ -8,29 +8,56 @@ export const Contact = () => {
         <h1>Contact</h1>
         <h3>How can we Help you?</h3>
       </div>
-      <form action="/" method="post" className="formContactContainer">
-        <div className="FormContact">
-          <label>Name:</label>
-          <input  type="text" name="nombreDeUsuario" className="formContactName" placeholder="Name" required />
-        </div>
-        <div className="FormContact">
-          <label>Email:</label>
-          <input  type="email" name="nombreDeUsuario" className="formContactEmail" placeholder="Email" required />
-        </div>
-        <div className="FormContact">
-          <label>Phone number:</label>
-          <input  type="tel" name="nombreDeUsuario" className="formContactPhone" placeholder="Name" required />
-        </div>
-        <div className="FormContact">
-          <label>How do you prefer that we contact you?</label>
-          <input  type="email" name="email" className="formContactEmailPrefer" placeholder="Email" required />
-        </div>
-        <div className="FormContact">
-          <label>Message:</label>
-          <input  type="text" name="nombreDeUsuario" className="formContactMessage" placeholder="Name" required />
-        </div>
-        <button type="submit" className="buttonFormContact">Send</button>
-      </form>
+      <div className="formContactContainer">
+        <form action="/" method="post">
+          <div className="formContact">
+            <label>Name:</label>
+            <input
+              type="text"
+              name="nombreDeUsuario"
+              className="formContactName"
+              required
+            />
+          </div>
+          <div className="formContact">
+            <label>Email:</label>
+            <input
+              type="email"
+              name="nombreDeUsuario"
+              className="formContactEmail"
+              required
+            />
+          </div>
+          <div className="formContact">
+            <label>Phone number:</label>
+            <input
+              type="tel"
+              name="nombreDeUsuario"
+              className="formContactPhone"
+              required
+            />
+          </div>
+          <div className="formContact">
+            <label className="formContactLabel">How do you prefer that we contact you?</label>
+            <select className="formContactPrefer" name="preferContact">
+              <option  className="formContactPreferOption" value="email">Email</option>
+              <option  className="formContactPreferOption" value="phone">Phone</option>
+            </select>
+          </div>
+          <div className="formContact">
+            <label>Message:</label>
+            <textarea
+              type="text"
+              name="nombreDeUsuario"
+              className="formContactMessage"
+              required
+            />
+          </div>
+          <button type="submit" className="buttonFormContact">
+            Send
+          </button>
+        </form>
+      </div>
     </div>
   );
 };

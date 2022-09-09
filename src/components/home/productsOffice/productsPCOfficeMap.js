@@ -10,6 +10,7 @@ export const ProductMap = ({ stock }) => {
       <div className="containerProduct">
         {stock.map((article) => (
           <article key={article.id} className="productContainer">
+             <Link to={`/detailProductOffice/${article.id}`} className="linkProduct">
             <SlickPCOffice className="SliderContainer"/>
             <section className="descriptionContainer">
               <p>{article.category}</p>
@@ -23,12 +24,13 @@ export const ProductMap = ({ stock }) => {
                 </Link>
               </div>
             </section>
+            </Link>
           </article>
         ))}
       </div>
-      <div className="containerBackButton">
+      <div className="containerBackButtonOffice">
         <Link to={"/"}>
-          <button className="buttonBackButton">Back</button>
+          <button className="buttonBackButtonOffice">Back</button>
         </Link>
       </div>
     </>
