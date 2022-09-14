@@ -145,23 +145,26 @@
   text-align: center;
 }
 .cardHomeProduct{
- width: 35%;
-  
+  width: auto;
+  box-shadow: 2px 5px 2px 1px rgb(148, 145, 145);
+  transition: all 0.3s;
 }
+.cardHomeProduct:hover{
+  box-shadow: 5px 10px 5px 2px rgb(148, 145, 145)
+ }
 .linkCardHomeProduct{
   text-decoration: none;
 }
 .imgCardHomeProduct{
   width: 20vw;
-  border: 1px solid #222a33;
 }
 .tittleCardHomeProduct{
  font-size: 35px;
- background-color:#e7e7e7;
- border: 1px solid #222a33;
+ background-color:white;
  width: 20vw;
  margin: auto;
  color: #f5a742;   
+ transition: all 0.3s;
 } 
 .tittleCardHomeProduct:hover {
   background-color: #f5a742;
@@ -190,6 +193,9 @@
 .logoRedirect:hover{
   box-shadow: 1px 5px 15px 10px rgb(90, 88, 88);
 }
+
+
+
 
 @media (max-width: 1200px) {
   .cardQuickAccess{
@@ -220,7 +226,7 @@
   }
   .cardHomeProduct{
     margin: 15px;
-    width: 80%;
+    width: auto;
   }
   .banner{
     height: 40vh;
@@ -260,7 +266,8 @@
   }
   .cardHomeProduct{
     margin: 25px;
-    width: 100%;
+    width: auto;
+    
   }
   .imgCardHomeProduct{
     width: 40vw;

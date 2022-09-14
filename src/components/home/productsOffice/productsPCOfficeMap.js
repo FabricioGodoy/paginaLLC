@@ -7,7 +7,7 @@ export const ProductMap = ({ stock }) => {
   return (
     <>
       <h1 className="titleProduct">PC's Office</h1>
-      <div className="containerProduct">
+      <div className="containerProductOffice">
         {stock.map((article) => (
           <article key={article.id} className="productContainer">
              <Link to={`/detailProductOffice/${article.id}`} className="linkProduct">
@@ -15,12 +15,12 @@ export const ProductMap = ({ stock }) => {
             <section className="descriptionContainer">
               <p>{article.category}</p>
               <h3>{article.name}</h3>
-              <div className="buttonContainer">
+              <div className="buttonContainerOffice">
                 <Link to={`/detailProductOffice/${article.id}`}>
-                  <button className="buttonProductContainer">More Info</button>
+                  <button className="buttonProductContainerOffice">More Info</button>
                 </Link>
                 <Link to={`#`}>
-                  <button className="buttonProductContainer">Buy it Now</button>
+                  <button className="buttonProductContainerOffice">Buy it Now</button>
                 </Link>
               </div>
             </section>

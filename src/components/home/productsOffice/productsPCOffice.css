@@ -1,8 +1,8 @@
-.containerProduct {
+.containerProductOffice {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   position: relative;
   margin: auto;
 }
@@ -28,11 +28,12 @@
   background-color: rgb(250, 248, 245);
   justify-content: space-around;
   border-radius: 50px 50px 50px 50px;
-  box-shadow: 3px 2px 10px 0.1px black;
+  box-shadow: 2px 5px 2px 1px rgb(148, 145, 145);
   overflow: hidden;
+  transition: all 0.3s;
 }
 .productContainer:hover {
-  box-shadow: 3px 2px 10px 3px black;
+  box-shadow: 5px 10px 5px 2px rgb(148, 145, 145);
 }
 .imgProduct {
   width: 100%;
@@ -65,12 +66,12 @@
   font-weight: bold;
 }
 
-.buttonContainer {
+.buttonContainerOffice {
   display: flex;
   width: 100%;
   justify-content: space-around;
 }
-.buttonProductContainer {
+.buttonProductContainerOffice {
   margin: 1px;
   padding: 0.4rem;
   height: auto;
@@ -78,12 +79,14 @@
   font-size: 15px;
   font-weight: bold;
   border-radius: 50px;
+  border: solid .1rem  rgb(148, 145, 145);
+  transition: all 0.3s;
 }
-.buttonProductContainer:hover {
+.buttonProductContainerOffice:hover {
   cursor: pointer;
-  background-color: blac;
+  background-color: #f5a742;
 }
-.containerBackButton {
+.containerBackButtonOffice {
   margin: auto;
   width: 100%;
   text-align: center;
@@ -92,7 +95,7 @@
     margin: 25px;
     padding: .5rem 4rem;
     height: auto;
-    width: 50%;
+    width: 25%;
     font-size: 25px;
     font-weight:bold;
     border-radius: 20px;

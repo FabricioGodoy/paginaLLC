@@ -11,7 +11,7 @@ export const Footer = () => {
           purchase
         </h3>
         <section className="containerInputFooter">
-          <input type="search" placeholder="  Enter your e-mail" />
+          <input type="text" placeholder="  Enter your e-mail" required/>
           <button type="submit">Send {">"} </button>
         </section>
       </div>

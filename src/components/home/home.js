@@ -86,7 +86,7 @@ const Home = () => {
 
         <section className="cardHomeProduct">
           <a href="/ProductsGaming" className="linkCardHomeProduct">
-            <img
+            <img 
               src="https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/flyer_gamer.png?raw=true"
               className="imgCardHomeProduct"
             />
@@ -97,7 +97,7 @@ const Home = () => {
 
       <div className="containerLogoRedirect">
         <a href="#">
-          <img
+          <img  
             src="https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/SN-LLC/amazon_logo_carousel.webp"
             className="logoRedirect"
           />
