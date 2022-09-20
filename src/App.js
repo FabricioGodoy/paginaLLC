@@ -12,13 +12,14 @@ import { DetailProduct } from "./components/home/productsOfficeDetail/productDet
 import { ProductsGamingView } from "./components/home/productsGaming/productsPCGaming" 
 import { ProductsGamingDetail } from  "./components/home/productsGamingDetail/productsGamingDetail"
 import { Contact } from "./components/contact/contact.js"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <Router>
-      <div className="container">
+      
         <Navbar />
-        <div>
+        <div className="todo">
           <Routes>
             <Route path="*" element={<Navigate to="/" />} />
             <Route path="/" exact={true} element={<Home />} />
@@ -32,7 +33,6 @@ function App() {
           </Routes>
         </div>
         <Footer />  
-      </div>
     </Router>
   );
 }

@@ -1,16 +1,19 @@
 import React from "react";
-import { ProductsView } from "./productsOffice/productsPCOffice";
 import "./home.css";
 import logoCard from "../../images/logos/confianza_cuotas.svg";
 import logoPickup from "../../images/logos/confianza_retiro.svg";
 import logoSecure from "../../images/logos/confianza_garantia.svg";
 import logoChat from "../../images/logos/chat.svg";
+import { SliderPrincipal } from "./SliderPrincipal";
+
+
+
 
 const Home = () => {
   return (
     <div className="home">
-      <div className="banner" />
-
+    {/*   <div className="banner" /> */}
+    <SliderPrincipal/>
       <div className="quickAccess">
         <section className="cardQuickAccess">
           <a href="#">

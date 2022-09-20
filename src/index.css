@@ -5,6 +5,9 @@
   font-family: sans-serif;
 }
 body{
-  background-color: #e7e7e7;
   text-align: center;
+}
+.todo{
+  background-color:#e7e7e7;
+  
 }
