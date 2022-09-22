@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 export const SliderPrincipal = () => {
 	return (
-		<div>
+		<div className='banner'>
 
 			<Carousel fade>
 				

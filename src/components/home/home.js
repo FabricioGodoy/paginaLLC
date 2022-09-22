@@ -6,14 +6,13 @@ import logoSecure from "../../images/logos/confianza_garantia.svg";
 import logoChat from "../../images/logos/chat.svg";
 import { SliderPrincipal } from "./SliderPrincipal";
 
-
-
-
 const Home = () => {
   return (
     <div className="home">
-    {/*   <div className="banner" /> */}
-    <SliderPrincipal/>
+      <SliderPrincipal />
+
+      {/* -------- CARDS ACCESO RAPIDO ------- */}
+      {/* 
       <div className="quickAccess">
         <section className="cardQuickAccess">
           <a href="#">
@@ -36,12 +35,14 @@ const Home = () => {
         <section className="cardQuickAccess">
           <a href="#">
             <img src={logoChat} className="iconsQuickAccess" />
-            <p>CHAT WITH US Se habla español</p>
+            <p>CHAT WITH US (Se habla español)</p>
           </a>
         </section>
-      </div>
+      </div> */}
 
-      <article className="sliderHomeProducts">
+      {/* ------- SLIDER PRODUCTS --------- */}
+
+      {/*       <article className="sliderHomeProducts">
         <section className="cardSliderHomeProducts">
           <a href="#">
             <img
@@ -75,32 +76,52 @@ const Home = () => {
           </a>
         </section>
       </article>
+ */}
 
       <article className="containerCardHomeProduct">
-        <section className="cardHomeProduct">
-          <a href="/ProductsOffice" className="linkCardHomeProduct">
+        <a href="/ProductsOffice" className="linkCardHomeProduct">
+          <section className="cardHomeProduct ">
+            <h1 className="tittleCardHomeProduct">
+              <img
+                src="https://img.icons8.com/external-basicons-solid-edtgraphics/100/1A1A1A/external-PC-computers-and-accessories-basicons-solid-edtgraphics.png"
+                className="iconCardHome"
+              />
+              Office
+              <img
+                src="https://img.icons8.com/external-basicons-solid-edtgraphics/100/1A1A1A/external-PC-computers-and-accessories-basicons-solid-edtgraphics.png"
+                className="iconCardHome"
+              />
+            </h1>
             <img
               src="https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/flyer_office.png?raw=true"
               className="imgCardHomeProduct"
             />
-            <h1 className="tittleCardHomeProduct">Office</h1>
-          </a>
-        </section>
-
-        <section className="cardHomeProduct">
-          <a href="/ProductsGaming" className="linkCardHomeProduct">
-            <img 
+          </section>
+        </a>
+        <a href="/ProductsGaming" className="linkCardHomeProduct">
+          <section className="cardHomeProduct ">
+            <h1 className="tittleCardHomeProduct">
+              <img
+                src="https://img.icons8.com/glyph-neue/64/1A1A1A/ps-controller.png"
+                className="iconCardHome"
+              />
+              Gaming
+              <img
+                src="https://img.icons8.com/glyph-neue/64/1A1A1A/ps-controller.png"
+                className="iconCardHome"
+              />
+            </h1>
+            <img
               src="https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/flyer_gamer.png?raw=true"
               className="imgCardHomeProduct"
             />
-            <h1 className="tittleCardHomeProduct">Gaming</h1>
-          </a>
-        </section>
+          </section>
+        </a>
       </article>
 
       <div className="containerLogoRedirect">
         <a href="#">
-          <img  
+          <img
             src="https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/SN-LLC/amazon_logo_carousel.webp"
             className="logoRedirect"
           />
@@ -118,7 +139,7 @@ const Home = () => {
           />
         </a>
       </div>
-<hr/>
+      <hr />
       <a href="#">
         <img
           src="https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/SN-LLC/banner%20amazon.webp"

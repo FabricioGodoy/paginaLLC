@@ -4,6 +4,8 @@ export const pcGamingJSON = [
     category: "PC Gaming",
     sku: "PGI5VNS4W-01",
     name: "Model SG60",
+    img: "https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcGaming/case_m100a_perfil2.png?raw=true",
+
     gabinete: 100,
     caracteristicas: [
       " Procesador:  Intel Core i5 10400 BX8070110400",
@@ -24,6 +26,8 @@ export const pcGamingJSON = [
     category: "PC Gaming",
     sku: " PGR7VNS4W-02",
     name: "Model SG85",
+    img: "https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcGaming/case_111r_perfil.png?raw=true",
+
     gabinete: 111,
     caracteristicas: [
       " Procesador: AMD Ryzen 7 5700X 100100926WOF ",
@@ -45,6 +49,8 @@ export const pcGamingJSON = [
     category: "PC Gaming",
     sku: " PGI5VNS4W-02",
     name: "Model SG70",
+    img: "https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcGaming/case_m100a_perfil.png?raw=true",
+
     gabinete: 100,
     caracteristicas: [
       " Procesador: Intel Core i5 12400F BX807151240F  ",
@@ -65,6 +71,8 @@ export const pcGamingJSON = [
     category: "PC Gaming",
     sku: "PGR7VNS4W-01",
     name: "Model SG85",
+    img: "https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcGaming/case_111r_lateral.png?raw=true",
+
     gabinete: 111,
     caracteristicas: [
       " Procesador : AMD Ryzen 7 5700X 100100926WOF ",
@@ -86,6 +94,8 @@ export const pcGamingJSON = [
     category: "PC Gaming",
     sku: " PGI5VNS4W-03",
     name: "Model SG60",
+    img: "https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcGaming/case_m100a_lateral.png?raw=true",
+
     gabinete: 100,
     caracteristicas: [
       " Procesador : Intel Core i5 10400 BX8070110400 ",
@@ -106,6 +116,8 @@ export const pcGamingJSON = [
     category: "PC Gaming",
     sku: "PGI5VNS4W-05",
     name: "Model SG70",
+    img: "https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcGaming/case_m100a_frente.png?raw=true",
+
     gabinete: 100,
     caracteristicas: [
       " Procesador: Intel Core i5 12400F BX807151240F ",
@@ -126,6 +138,8 @@ export const pcGamingJSON = [
     category: "PC Gaming",
     sku: "PGR7VNS4W-03",
     name: "Model SG85",
+    img: "https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcGaming/case_111r_frente.png?raw=true",
+
     gabinete: 111,
     caracteristicas: [
       " Procesador: AMD Ryzen 7 5700X 100100926WOF ",
@@ -148,6 +162,8 @@ export const pcGamingJSON = [
     category: "PC Gaming",
     sku: "PGI5VNS4W-04",
     name: "Model SG60",
+    img: "https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcGaming/case_m100a_detras.png?raw=true",
+
     gabinete: 100,
     caracteristicas: [
       " Procesador: Intel Core i5 10400 BX8070110400 ",
@@ -168,6 +184,8 @@ export const pcGamingJSON = [
     category: "PC Gaming",
     sku: " PGI5VNS4W-06",
     name: "Model SG70 ",
+    img: "https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcGaming/case_m100a_arriba.png?raw=true",
+
     gabinete: 100,
     caracteristicas: [
       " Procesador: Intel Core i5 12400F BX807151240F ",
@@ -189,6 +207,8 @@ export const pcGamingJSON = [
     category: "PC Gaming",
     sku: "PGR7VNS4W-04",
     name: "Model SG85",
+    img: "https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcGaming/case_111r_atras.png?raw=true",
+
     gabinete: 111,
     caracteristicas: [
       " Procesador: AMD Ryzen 7 5700X 100100926WOF ",

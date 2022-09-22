@@ -34,7 +34,7 @@
 .productContainer:hover {
   box-shadow: 5px 10px 5px 2px rgb(148, 145, 145);
 }
-.imgProduct {
+.imgPcOffice {
   width: 100%;
 }
 .descriptionContainer {
@@ -91,18 +91,42 @@
   text-align: center;
 }
 .buttonBackButtonOffice {
-    margin: 25px;
-    padding: .5rem 4rem;
-    height: auto;
+    margin: 5%;
+    padding: .5rem 1rem;
+    height: 3rem;
     width: 25%;
     font-size: 25px;
     font-weight:bold;
     border-radius: 20px;
     border: solid 1px;
+    flex-direction: column;
+    transition: 1s ease-in-out all;
 }
 .buttonBackButtonOffice:hover {
   cursor: pointer;
   background-color: #f5a742;
+}
+.buttonBackButtonOffice span{  
+  position: absolute;
+  right: 48%;
+  transition: .5s ease-in-out all;
+  
+}
+.buttonBackButtonOffice:hover span{
+  right: 40%;
+}
+
+.iconBack{  
+  position: absolute;
+  display: flex;
+  z-index: 2;
+  right: 0%;
+  opacity: 0;
+  transition: 1s ease-in-out all;
+  
+}
+.buttonBackButtonOffice:hover .iconBack {
+  opacity: 1;
 }
 
 @media (max-width: 1200px) {

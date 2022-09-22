@@ -28,7 +28,7 @@
   margin: auto;
   padding: 1rem;
   margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-bottom: rem;
 }
 
 .containerListGaming {
@@ -58,7 +58,6 @@
 
 .containerButtonDetailProductGaming {
   margin: auto;
-  margin: 50px;
 }
 .buttonDetailProductGaming {
   margin: 10px;
@@ -68,12 +67,14 @@
   font-size: 20px;
   font-weight: 700;
   border-radius: 50px;
-  border: solid 1px;
+  border: solid .1rem  rgb(148, 145, 145);
 }
 .buttonDetailProductGaming:hover {
   cursor: pointer;
   background-color: #f5a742;
 }
+
+
 
 @media (max-width: 1200px) {
   .containerListDetailGaming {
