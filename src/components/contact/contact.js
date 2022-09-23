@@ -31,7 +31,7 @@ export const Contact = () => {
           <div className="formContact">
             <label>Phone number:</label>
             <input
-              type="tel"
+              type="number"
               name="nombreDeUsuario"
               className="formContactPhone"
               required

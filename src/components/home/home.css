@@ -214,9 +214,10 @@
     display: flex;
     margin: auto;
   }
-  .imgCardHomeProduct {
-    width: 25vw;
+  .cardHomeProduct {
+    width: 95VW;
   }
+
   .tittleCardHomeProduct {
     width: 25vw;
   }
@@ -226,16 +227,7 @@
 }
 
 @media (max-width: 1000px) {
- /*  .containerCardHomeProduct {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
-  }
-  .cardHomeProduct {
-    margin: 15px;
-    width: auto;
-  } */
+
   .banner {
     height: 40vh;
   }
