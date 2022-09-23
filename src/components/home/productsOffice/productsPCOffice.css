@@ -100,7 +100,7 @@
   border-radius: 20px;
   border: solid 1px;
   flex-direction: column;
-  transition: 1s ease-in-out all;
+  transition: .5s ease-in-out all;
 }
 .buttonBackButtonOffice:hover {
   cursor: pointer;
@@ -109,10 +109,10 @@
 .buttonBackButtonOffice span {
   position: absolute;
   right: 48%;
-  transition: 0.5s ease-in-out all;
+  transition: .5s ease-in-out all;
 }
 .buttonBackButtonOffice:hover span {
-  right: 40%;
+  opacity: 0;
 }
 
 .iconBack {
