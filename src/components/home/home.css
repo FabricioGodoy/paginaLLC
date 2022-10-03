@@ -1,6 +1,9 @@
 .banner{
   margin-bottom: 2rem;
 }
+.banner img{
+  height: 50vh;
+}
 
 /* QUICK ACCSESS */
 .quickAccess {

@@ -10,73 +10,7 @@ const Home = () => {
   return (
     <div className="home">
       <SliderPrincipal />
-
-      {/* -------- CARDS ACCESO RAPIDO ------- */}
-      {/* 
-      <div className="quickAccess">
-        <section className="cardQuickAccess">
-          <a href="#">
-            <img src={logoCard} className="iconsQuickAccess" />
-            <p>FREE 2-DAY SHIPPING on Selected Orders</p>
-          </a>
-        </section>
-        <section className="cardQuickAccess">
-          <a href="#">
-            <img src={logoPickup} className="iconsQuickAccess" />
-            <p>PICKUP Where are we?</p>
-          </a>
-        </section>
-        <section className="cardQuickAccess">
-          <a href="#">
-            <img src={logoSecure} className="iconsQuickAccess" />
-            <p>100% SECURE PURCHASE Official guarantee</p>
-          </a>
-        </section>
-        <section className="cardQuickAccess">
-          <a href="#">
-            <img src={logoChat} className="iconsQuickAccess" />
-            <p>CHAT WITH US (Se habla español)</p>
-          </a>
-        </section>
-      </div> */}
-
-      {/* ------- SLIDER PRODUCTS --------- */}
-
-      {/*       <article className="sliderHomeProducts">
-        <section className="cardSliderHomeProducts">
-          <a href="#">
-            <img
-              src="https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/productos/Printers_large.webp"
-              className="imgSliderHomeProducts"
-            />
-          </a>
-        </section>
-        <section className="cardSliderHomeProducts">
-          <a href="#">
-            <img
-              src="https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/productos/AccessPoints_large.webp"
-              className="imgSliderHomeProducts"
-            />
-          </a>
-        </section>
-        <section className="cardSliderHomeProducts">
-          <a href="#">
-            <img
-              src="https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/productos/Switches_large.webp"
-              className="imgSliderHomeProducts"
-            />
-          </a>
-        </section>
-        <section className="cardSliderHomeProducts">
-          <a href="#">
-            <img
-              src="https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/productos/Telephones_large.webp"
-              className="imgSliderHomeProducts"
-            />
-          </a>
-        </section>
-      </article>
- */}
+      <h1> MERCADO SHOP DE VERGA</h1>
 
       <article className="containerCardHomeProduct">
         <a href="/ProductsOffice" className="linkCardHomeProduct">

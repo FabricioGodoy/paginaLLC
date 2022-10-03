@@ -4,18 +4,28 @@ import "./footer.css";
 export const Footer = () => {
   return (
     <div className="containerFooter">
+     
       <div className="footerTittleInput">
-        <h1 className="tittleFooter">Subscribe to our newsletter!</h1>
-        <h3>
-          You will receive the best offers and a discount coupon for your next
-          purchase
-        </h3>
-        <section className="containerInputFooter">
-          <input type="text" placeholder="  Enter your e-mail" required/>
-          <button type="submit">Send {">"} </button>
-        </section>
-      </div>
+       
+        <div>
+          <h3>Order Online or Call</h3>
+          <h4> 0151231</h4>
+        </div>
+       
+        <div className="containerLiFooter">
+          <ul>
+            <li> About us </li>
+            <li> Contact us </li>
+            <li> Support </li>
+            <li> Blog </li>
+          </ul>
+        </div>
 
+        <div>
+          <h5>Follow Us On:</h5>
+        </div>
+      </div>
+{/* 
       <section className="logolinkfooter">
         <a href="/" className="linkFooter">
           <img
@@ -42,7 +52,7 @@ export const Footer = () => {
 
       <section className="copyright">
         <p className="copyrightFooter">© ShopNow 2020</p>
-      </section>
+      </section> */}
     </div>
   );
 };

@@ -4,82 +4,21 @@
     width: 100%;
     margin:auto;
     text-align: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     color: white;
     background-color:  #222a33;
+    position: absolute;    
 }
 
 .footerTittleInput{
   width: 100%;
   background-color: #27262b;
-}
-.tittleFooter{
-    margin-top: 30px;
-    margin-bottom: 15px;
-}
-.containerInputFooter{
-    display: flex;
-    height: 3rem;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    justify-content: center;
-    margin-bottom: 2rem;
-}
-.containerInputFooter input{
-    width: 30%;
-    height: 3rem;
-    border-radius: 10px;
-    font-size:17px;
-}
-.containerInputFooter button{
-    width: 4rem;
-    height: 3rem;
-    background-color: #f7a902;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size:17px;
-    transition: 150ms;
-    color: white;
-    font-weight: bold;
-}
-.containerInputFooter button:hover{
-  background-color: grey;
-  color: #f7a902;
-  font-weight: bold;
-}
-.logolinkfooter{
-    width: 100%;
-    margin-bottom: 1rem ;
-}
-.logoFooter {
-    height: 4em;
-    margin: 1rem 2rem 0.5rem;
-    padding: auto;
-  }
-  .linkFooter{
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    color: white;
-  }
- .logoi{
-  width: 100%;
-  margin: auto;
-  background-color: #27262b;
-
-}
-.logoimg{
-  width: 35px;
-  margin: 1rem 2rem;
-  }
-  .copyright{
-    width: 100%;
-    margin: auto;
-    background-color:rgb(22, 22, 22);
-  }
-  .copyrightFooter{
-    margin-top: 30px;
-    margin-bottom: 15px;
-
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 
+.containerLiFooter ul li{
+  flex-direction: row;
+  
+}
