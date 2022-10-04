@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./productsPCGaming.css";
-import { SlickPCGamingGabinete100 } from "./sliderProductsPCGaming100";
-import { SlickPCGamingGabinete111 } from "./sliderProductPCGaming111";
+
 
 export const ProductsPCGamingMap = ({ stockGaming }) => {
   return (

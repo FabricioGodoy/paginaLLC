@@ -4,55 +4,75 @@ import "./footer.css";
 export const Footer = () => {
   return (
     <div className="containerFooter">
-     
-      <div className="footerTittleInput">
-       
-        <div>
-          <h3>Order Online or Call</h3>
+      
+      <div className="footerFirstColumn">
+        <div className="itemFirstColum">
+          <p>Order Online or Call:</p>
           <h4> 0151231</h4>
         </div>
-       
-        <div className="containerLiFooter">
-          <ul>
+        <div className="itemFirstColum">
+          <ul className="listFirstColum">
             <li> About us </li>
             <li> Contact us </li>
             <li> Support </li>
             <li> Blog </li>
           </ul>
         </div>
-
-        <div>
+        <div className="itemFirstColum logosFooter">
           <h5>Follow Us On:</h5>
+          <a href="https://www.youtube.com/channel/UCxWedPaJvnyZXCC7f65cdzg">
+            <img src="https://img.icons8.com/ios-filled/50/FFFFFF/youtube-play.png" />
+          </a>
+          <a href="https://twitter.com/SolutionBoxArg">
+            <img src="https://img.icons8.com/ios-filled/50/FFFFFF/twitter.png" />
+          </a>
+          <a href="https://www.instagram.com/solutionboxarg/">
+            <img src="https://img.icons8.com/ios-filled/50/FFFFFF/instagram-new--v1.png" />
+          </a>
+          <a href="https://www.facebook.com/solutionboxarg">
+            <img src="https://img.icons8.com/ios-filled/50/FFFFFF/facebook-new.png" />
+          </a>
         </div>
       </div>
-{/* 
-      <section className="logolinkfooter">
-        <a href="/" className="linkFooter">
-          <img
-            src="https://raw.githubusercontent.com/FabricioGodoy/imagenes/5324066b3afff9d237c1fdbf39fba21c6d136819/SN-LLC/logoSNFooter.svg"
-            className="logoFooter"
-          />
-          <p>BETTER EXPERIENCE</p>
-        </a>
-      </section>
-      <section className="logoi">
-        <a href="https://www.instagram.com/shopnowstore_usa/">
-          <img
-            src="https://img.icons8.com/ios-filled/100/FFFFFF/instagram-new--v1.png"
-            className="logoimg"
-          />
-        </a>{" "}
-        <a href="">
-          <img
-            src="https://img.icons8.com/material-sharp/96/FFFFFF/send-mass-email.png"
-            className="logoimg"
-          />
-        </a>
-      </section>
 
-      <section className="copyright">
-        <p className="copyrightFooter">© ShopNow 2020</p>
-      </section> */}
+      <div className="footerSecondColumn">
+        <div className="itemSecondColumn">
+          <h5>CUSTOMER {"&"} TECH SUPPORT</h5>
+          <p> (888) 0303-456</p>
+          <p> juancitoh@shopnow.com.ar</p>
+        </div>
+        <hr className="divisorHRfooter" />
+        <div className="itemSecondColumn">
+          <h5>SALES DEPARTMENT:</h5>
+          <p> (0123) 0303-456</p>
+          <p> sales@shopnow.com.ar</p>
+        </div>
+        <hr className="divisorHRfooter" />
+        <div className="itemSecondColumn">
+          <h5>RMA STATUS:</h5>
+          <p> RMA@shopnow.com.ar</p>
+        </div>
+        <hr className="divisorHRfooter" />
+        <div className="itemSecondColumnInput ">
+            <input type="email" name="emailUser" placeholder=" NEWSLETTER"/>
+            <button type="submit" className="buttonNewsLetter">
+              Send
+            </button>
+        </div>
+      </div>
+
+      <div className="footerThirdColumn">
+          <ul className="listThirdColum">
+            <li> Privacy </li>
+            <li> Warranty {"&"} Return </li>
+            <li> Ecom Warranty </li>
+            <li> Refurbished Item Warranty </li>
+            <li> Recycling </li>
+            <li> Site map </li>
+          </ul>
+      </div>
+
+
     </div>
   );
 };

@@ -24,10 +24,8 @@ function App() {
             <Route path="*" element={<Navigate to="/" />} />
             <Route path="/" exact={true} element={<Home />} />
             <Route path="/ProductsOffice" element= { <ProductsOfficeView/> }/>
-          {/*   <Route path="/ProductsOffice/:catId" element= { <ProductsOfficeView/> }/> */}
             <Route path="/detailProductOffice/:catId" element= { <DetailProduct/> }/>
             <Route path="/ProductsGaming" element= { <ProductsGamingView/> }/>
-          {/*   <Route path="/ProductsGaming/:catId" element= { <ProductsGamingView/> }/> */}
             <Route path="/detailProductGaming/:catId" element= { <ProductsGamingDetail/> }/>
             <Route path="/Contact" element= { <Contact/> }/> 
           </Routes>

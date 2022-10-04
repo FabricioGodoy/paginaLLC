@@ -1,10 +1,33 @@
-.banner{
-  margin-bottom: 2rem;
-}
+
 .banner img{
   height: 50vh;
 }
-
+.bannerBottomBanner{
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+  background-color: #27262b;
+  color: white;
+  align-items: center;
+  font-weight: 700;
+}
+.bottomBannerItem {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  margin: 1rem;
+  transition: all .2s;
+}
+.bottomBannerItem:hover {
+  cursor: pointer;
+  color: #f5a742;
+  box-shadow: 1px 1px 10px 1px white;
+}
+.imgBannerBottomBanner{
+  width: 3rem;
+  margin: .5rem;
+}
 /* QUICK ACCSESS */
 .quickAccess {
   display: flex;
@@ -80,7 +103,7 @@
 /* PRODUCTS */
 
 .containerCardHomeProduct {
-  margin: 1px;
+  margin: 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -89,9 +112,9 @@
 .cardHomeProduct {
   position:relative;
   overflow: hidden;
-  width: 100%;
+  width:99vw;
   height: 45vh;
-  margin: 1px 5px;
+  margin: 5px 0px;
   border-radius: 10px;
   box-shadow: 1px 5px 2px 1px rgb(148, 145, 145);
   transition: all 1s;
@@ -260,6 +283,9 @@
     top: 5%;
     font-size: 40px;
   }
+  .containerLogoRedirect {
+    border-bottom: solid 15px #222a33;
+  }
 }
 
 @media (max-width: 800px) {
@@ -298,11 +324,17 @@
     top: 5%;
     font-size: 40px;
   }
+  .bannerBottomBanner p{
+    display: none;
+  }
 }
 @media (max-width: 500px) {
   .imgCardHomeProduct {
     width:65%;
     margin: auto;
+  }
+  .bannerBottomBanner{
+    display: none;
   }
  
 }

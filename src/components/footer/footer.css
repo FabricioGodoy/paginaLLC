@@ -1,24 +1,188 @@
-.containerFooter{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    margin:auto;
-    text-align: center;
-    justify-content: space-evenly;
-    color: white;
-    background-color:  #222a33;
-    position: absolute;    
+.containerFooter {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  justify-content: space-evenly;
+  color: white;
+  background-color: #222a33;
+  position: absolute;
 }
 
-.footerTittleInput{
+.footerFirstColumn {
   width: 100%;
   background-color: #27262b;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.itemFirstColum {
+  width: 100%;
+  margin: auto;
+}
+.itemFirstColum h4 {
+  color: red;
+  font-weight: bold;
+}
+.listFirstColum {
+  list-style: none;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+}
+.listFirstColum li {
+  margin: 1rem;
+  font-size: 20px;
+}
+.listFirstColum li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.itemFirstColum img {
+  margin: 1rem;
+  width: 2.5rem;
+}
+.itemFirstColum img:hover {
+  cursor: pointer;
 }
 
-.containerLiFooter ul li{
+.footerSecondColumn {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1rem;
+  height: 5rem;
+}
+.divisorHRfooter {
+  width: 4rem;
+  color: white;
+}
+.itemSecondColumnInput input{
+  margin: .3rem 1rem;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.buttonNewsLetter {
+  height: auto;
+  width: auto;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: solid 0.1rem rgb(148, 145, 145);
+  transition: all 0.3s;
+}
+.buttonNewsLetter:hover {
+  cursor: pointer;
+  background-color: #f5a742;
+}
+.footerThirdColumn {
+  width: 100%;
+  background-color: #27262b;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 15px;
+}
+.listThirdColum {
+  list-style: none;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+}
+.listThirdColum li {
+  margin: 1rem;
+  font-size: 15px;
+}
+
+@media (max-width: 1200px) {
+  .listFirstColum li {
+    font-size: 15px;
+  }
+  .itemFirstColum p {
+    font-size: 16px;
+  }
+
+  .itemFirstColum img {
+    width: 2rem;
+  }
+
+  .itemSecondColumn {
+    font-size: 15px;
+    width: 50%;
+  }
+  .itemSecondColumn h4 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1000px) {
+  .itemFirstColum p {
+    display: none;
+  }
+  .itemFirstColum h4 {
+    display: none;
+  }
+  .listFirstColum li {
+    display: none;
+  }
+  .logosFooter h5 {
+    display: none;
+  }
+  .logosFooter {
+    
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-right: 35%;
+  }
   
+}
+@media (max-width: 900px) {
+  .itemSecondColumn h5 {
+    display: none;
+  }
+  .divisorHRfooter {
+    display: none;
+  }
+  .itemSecondColumn p {
+    display: none;
+  }
+  .itemSecondColumnInput{
+    display: flex;
+    margin: 35vw ;
+
+  }
+}
+@media (max-width: 800px) {
+
+.listThirdColum{
+  flex-direction: column;
+}
+.listThirdColum li{
+  margin: 10px;
+}
+.logosFooter {
+  margin-right: 30%;
+}
+}
+@media (max-width: 600px) {
+  
+  .logosFooter {
+    margin-right: 25%;
+  }
+
+}
+@media (max-width: 400px) {
+  
+  .logosFooter {
+    margin-right: 20%;
+  }
+
 }

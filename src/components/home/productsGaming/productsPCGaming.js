@@ -15,7 +15,7 @@ export function ProductsGamingView(){
                 if (!catId) {
                     setStockGaming(resp)
                 } else {
-                    setStockGaming(resp.filter(product => product.gabinete == catId))
+                    setStockGaming(resp.filter(product => product.id == catId))
                 }
             })
             .catch( (error) =>{
