@@ -4,7 +4,7 @@ export const pcOfficeJSON = [
     category: "PC Office",
     sku: " PCI38GB250-1",
     name: "Model SC20",
-    img: "https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcOffice/pcOffice.jpeg?raw=true",
+    img: "https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcGaming/modelSC20-NSX.jpg-NSX.jpg?raw=true",
     caracteristicas: [
       " Procesador:  Intel Core i3 10100 BX8070110100 ",
       " Motherboard : Mother ASROCK H510M-HDV H510M-HDV",
@@ -22,7 +22,7 @@ export const pcOfficeJSON = [
     category: "PC Office",
     sku: " PCR58GB250-1",
     name: "Model SC45",
-    img: "https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcOffice/pcOfficeFront.jpeg?raw=true",
+    img: "https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/modelSC45-NSX.jpg?raw=true",
     caracteristicas: [
       " Procesador:  AMD Ryzen 5 4600G 100-100000147BOX ",
       " Motherboard : Mother MSI PRO A520M-A PRO 911-7C96-017",
@@ -40,7 +40,7 @@ export const pcOfficeJSON = [
     category: "PC Office",
     sku: " PCI58GB250-1",
     name: "Model SC30",
-    img: "https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcOffice/pcOfficeBack.jpeg?raw=true",
+    img: "https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/modelSC30-NSX.jpg?raw=true",
     caracteristicas: [
       " Procesador:  Intel Core i5 10400 BX8070110400 ",
       " Motherboard : Mother ASROCK H510M-HDV H510M-HDV ",
@@ -54,11 +54,11 @@ export const pcOfficeJSON = [
     ean: "798177450140",
   },
   {
-    id: 4,
+     id: 4,
     category: "PC Office",
     sku: " PCR58GB250-2",
     name: "Model SC45",
-    img: "https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcOffice/pcOffice.jpeg?raw=true",
+    img: "https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/modelSC45-2-NSX.jpg?raw=true",
     caracteristicas: [
       " Procesador:  AMD Ryzen 5 4600G 100-100000147BOX ",
       " Motherboard : Mother MSI PRO A520M-A PRO 911-7C96-017 ",
@@ -76,7 +76,7 @@ export const pcOfficeJSON = [
     category: "PC Office",
     sku: " PCI38GB250-2",
     name: "Model SC20",
-    img: "https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcOffice/pcOfficeFront.jpeg?raw=true",
+    img: "https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/modelSC20-2-NSX.jpg?raw=true",
     caracteristicas: [
       " Procesador: Intel Core i3 101000 BX8070110100 ",
       " Motherboard : Mother ASROCK H510M-HDV H510M-HDV",
@@ -94,12 +94,12 @@ export const pcOfficeJSON = [
     category: "PC Office",
     sku: "PCR58GB250-3",
     name: "Model SC45",
-    img: "https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcOffice/pcOfficeBack.jpeg?raw=true",
+    img: "https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/modelSC45-NSX.jpg?raw=true",
     caracteristicas: [
       " Procesador:  AMD Ryzen 5 4600G 100-100000147BOX ",
       " Motherboard : Mother MSI PRO A520M-A PRO 911-7C96-017",
       " Memoria RAM : PATRIOT RAM 8GB DDR4-3200 PSD48G320081 ",
-      " SSD : PATRIOT P210 512GB SATA P210S512G25  ",
+      " SSD : PATRIOT P210 250GB SATA P210S512G25  ",
       " Gabinete : Gabinete Oficina 101005 ",
       " Mouse  : Periferico 111003",
       " Teclado  : Periferico 121007",
@@ -112,7 +112,7 @@ export const pcOfficeJSON = [
     category: "PC Office",
     sku: " PCI58GB250-2",
     name: "Model SC30 ",
-    img: "https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcOffice/pcOffice.jpeg?raw=true",
+    img: "https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/modelSC30-2-NSX.jpg?raw=true",
     caracteristicas: [
       " Procesador:  Intel Core i5 10400 BX8070110400 ",
       " Motherboard : Mother ASROCK H510M-HDV H510M-HDV ",
@@ -130,7 +130,7 @@ export const pcOfficeJSON = [
     category: "PC Office",
     sku: " PPCR58GB250-4",
     name: "Model SC45",
-    img: "https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcOffice/pcOfficeFront.jpeg?raw=true",
+    img: "https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/modelSC45-3-NSX.jpg?raw=true",
     caracteristicas: [
       " Procesador: AMD Ryzen 5 4600G 100-100000147BOX ",
       " Motherboard : Mother MSI PRO A520M-A PRO 911-7C96-017",
