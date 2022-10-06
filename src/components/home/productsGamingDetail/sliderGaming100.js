@@ -9,7 +9,7 @@ export const SlickPCGamingDetailGabinete100= () => {
     
         <Slider {...settings}  style={{ width: "25rem",margin: "0rem 2rem 3rem 0rem" }}>
           <div>
-            <img className='imgProductGamingDetail' src="https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcGaming/case_m100a_perfil2.png?raw=true" />
+            <img className='imgProductGamingDetail' src="https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcGaming/imagensinfondo.png?raw=true" />
           </div>
           <div>
             <img className='imgProductGamingDetail' src="https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcGaming/case_m100a_perfil.png?raw=true" />
