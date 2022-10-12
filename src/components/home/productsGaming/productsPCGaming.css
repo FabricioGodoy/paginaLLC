@@ -10,19 +10,19 @@
     display: flex;
     font-size: 500%;
     justify-content: space-around;
-    font-family: roboto, serif;
-    font-weight: 100;
+    font-family: "Roboto", sans-serif, serif;
+    font-weight: 500;
 }
 .productContainerGammig{
     display: flex;
     flex-wrap: wrap;
     width: 15%;
-    margin: 3rem;
+    margin: 1rem;
     text-align: center;
     padding: 2px;
-    background-color: rgb(250, 248, 245);
+    background-color: rgb(0, 0, 0);
     justify-content: space-around;
-    border-radius: 50px 50px 50px 50px;
+    border-radius: 5px;
     box-shadow: 2px 5px 2px 1px rgb(148, 145, 145);
     overflow: hidden;
     transition: all 0.3s;
@@ -41,10 +41,10 @@
     justify-content: space-around;
     gap: .5rem;
     padding: 1rem ;
-    background-color:#e7e7e7;
+    background-color:#000;
     width: 100%;
     height: auto;
-    border-radius: 0px 0px 50px 50px;
+    border-radius: 0 0 5px 5px;
     flex-direction: column;
 }
 .descriptionContainer h3{
@@ -52,7 +52,7 @@
     margin-bottom: 1rem ;
     margin-top: .5rem;
     font-size: 25px;
-    color: black;
+    color: #fff;
     font-weight: bold;
 }
 .descriptionContainer p{
@@ -74,8 +74,10 @@
   width: auto;
   font-size: 15px;
   font-weight: bold;
-  border-radius: 50px;
-  border: solid .1rem  rgb(148, 145, 145);
+  border-radius: 5px;
+  color: white;
+  background-color: #000;
+  border: solid 1px rgb(255, 255, 255);
   transition: all 0.3s;
 }
 .buttonProductContainer:hover{
@@ -84,14 +86,16 @@
 }
 .containerBackButton{
     margin:auto;   
+    display: block;
     width: 100%;
     text-align: center;
+    align-content: center;
+    align-items: center;
 
 }
 .buttonBackButton{
-      margin: 5%;
-    padding: .5rem 1rem;
-    height: 3rem;
+    margin: 3%;
+    height: 5vh;
     width: 25%;
     font-size: 25px;
     font-weight:bold;
@@ -99,6 +103,7 @@
     border: solid 1px;
     flex-direction: column;
     transition: .5s ease-in-out all;
+    overflow: hidden;
 }
 .buttonBackButton:hover{
     cursor: pointer;
@@ -106,10 +111,16 @@
 }
 .buttonBackButton span{  
     position: absolute;
-    right: 48%;
+    right: 49%;
     transition: .5s ease-in-out all;
     
   }
+  .buttonDetailProductBack{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
   .buttonBackButton:hover span{
     opacity: 0;
   }

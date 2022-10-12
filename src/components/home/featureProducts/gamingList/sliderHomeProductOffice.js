@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 
-export const SliderHomeProductGaming = ({ stockGaming }) => {
+export const SliderHomeProductGaming = ({ product }) => {
   var settings = {
     dots: true
   };
@@ -62,15 +62,7 @@ export const SliderHomeProductGaming = ({ stockGaming }) => {
           </article>
       </div>
 
-      {/*   <div>
-            <img className='' src="https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcGaming/case_m100a_frente.png?raw=true" />
-          </div>
-          <div>
-            <img className='' src="https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcGaming/case_m100a_detras.png?raw=true" />
-          </div>
-          <div>
-            <img className='' src="https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcGaming/case_m100a_arriba.png?raw=true" />
-          </div> */}
     </Slider>
-  );
+
+  ); 
 };

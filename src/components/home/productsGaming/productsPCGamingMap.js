@@ -17,7 +17,7 @@ export const ProductsPCGamingMap = ({ stockGaming }) => {
               {/*  { article.gabinete === 100 ? <SlickPCGamingGabinete100 /> : <SlickPCGamingGabinete111 /> } */}
               <img src={article.img} className="imgProductGaming" />
               <section className="descriptionContainer">
-                <p> {article.category}</p>
+              {/*   <p> {article.category}</p> */}
                 <h3> {article.name}</h3>
                 <div className="buttonContainer">
                   <Link to={`/detailProductGaming/${article.id}`}>

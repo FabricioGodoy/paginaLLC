@@ -119,11 +119,13 @@
 }
 
 .slick-arrow {
-  height: 3rem;
-  width: 3rem;
+  background-color: #e0e0e0;
+  height: 1.5rem;
+  width: 1.5rem;
   border-radius: 100%;
 }
 .slick-arrow:hover {
+  background-color: #e0e0e0;
   box-shadow: 1px 1px 90px 0.1rem #666564;
 }
 .containerSliderHome h1,
@@ -137,12 +139,11 @@
 .imgCardHomeProduct {
   margin: auto;
   width: 20vw;
-  border-radius: 50px;
+  border-radius: 5px;
 }
 .containerSliderProductsGamingHome {
   display: flex;
-  background-color: #e7e7e7;
-  border-radius: 20px;
+  background-color: #fff;
   width: 65vw;
   margin: auto;
   justify-content: center;
@@ -211,33 +212,7 @@
   box-shadow: 1px 5px 15px 10px rgb(90, 88, 88);
 }
 
-.text-blur-out:hover {
-  -webkit-animation: text-blur-out 1.2s cubic-bezier(0.55, 0.085, 0.68, 0.53)
-    reverse both;
-  animation: text-blur-out 1.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) reverse
-    both;
-}
 
-@-webkit-keyframes text-blur-out {
-  0% {
-    -webkit-filter: blur(0.01);
-    filter: blur(0.01);
-  }
-  100% {
-    -webkit-filter: blur(12px) opacity(0%);
-    filter: blur(12px) opacity(0%);
-  }
-}
-@keyframes text-blur-out {
-  0% {
-    -webkit-filter: blur(0.01);
-    filter: blur(0.01);
-  }
-  100% {
-    -webkit-filter: blur(12px) opacity(0%);
-    filter: blur(12px) opacity(0%);
-  }
-}
 
 @media (max-width: 1300px) {
   .cardQuickAccess {

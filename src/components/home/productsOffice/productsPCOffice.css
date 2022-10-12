@@ -10,8 +10,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  font-family: roboto, serif;
-  font-weight: 100;
+  font-family: "Roboto", sans-serif, serif;
+  font-weight: 500;
 }
 .linkProduct {
   text-decoration: none;
@@ -100,7 +100,7 @@
   border-radius: 20px;
   border: solid 1px;
   flex-direction: column;
-  transition: .5s ease-in-out all;
+  transition: 0.5s ease-in-out all;
 }
 .buttonBackButtonOffice:hover {
   cursor: pointer;
@@ -109,7 +109,7 @@
 .buttonBackButtonOffice span {
   position: absolute;
   right: 48%;
-  transition: .5s ease-in-out all;
+  transition: 0.5s ease-in-out all;
 }
 .buttonBackButtonOffice:hover span {
   opacity: 0;
@@ -152,7 +152,7 @@
   /*  .imgProduct {
     width: 100%;
   } */
-  .buttonDetailProductBack{
+  .buttonDetailProductBack {
     position: absolute;
     left: 43%;
   }
@@ -163,7 +163,8 @@
   }
   /*   .imgProduct {
     width: 100%;
-  } */ .buttonDetailProductBack{
+  } */
+  .buttonDetailProductBack {
     left: 41%;
   }
 }

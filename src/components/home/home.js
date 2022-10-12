@@ -1,8 +1,9 @@
 import React from "react";
 import "./home.css";
-import { SliderPrincipal } from "./SliderPrincipal";
-import { SliderHomeProductGaming } from "./sliderHomeProductOffice";
+import { SliderPrincipal } from "./bannerHome/SliderPrincipal";
+import { SliderHomeProductGaming } from "./featureProducts/gamingList/sliderHomeProductOffice";
 import logo from "../../images/logos/logo-sn.png";
+import { ProductsDestacados } from "./featureProducts/gamingList/listGamingFeatures";
 
 const Home = () => {
   return (
@@ -60,7 +61,9 @@ const Home = () => {
           </section>
         </span>
       </article>
+      { <ProductsDestacados />}
 
+      {/*----------- MOBILE -------------- */}
       <div className="containerProductsMobile">
         <article className="containerSliderProductsGamingHomeMobile">
           <section className=" ProductsGamingHomeMobile ">
@@ -91,6 +94,7 @@ const Home = () => {
           </section>
         </article>
       </div>
+      {/*----------- FIN MOBILE -------------- */}
 
       <div className="containerLogoRedirect">
         <a href="#">

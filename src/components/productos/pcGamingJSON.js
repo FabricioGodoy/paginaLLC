@@ -1,6 +1,7 @@
 export const pcGamingJSON = [
   {
     id: 1,
+    feature: "yes",
     category: "PC Gaming",
     sku: "PGI5VNS4W-01",
     name: "Model SG60",
@@ -23,6 +24,7 @@ export const pcGamingJSON = [
   },
   {
     id: 8,
+    feature: "yes",
     category: "PC Gaming",
     sku: " PGR7VNS4W-02",
     name: "Model SG85",
@@ -46,6 +48,7 @@ export const pcGamingJSON = [
   },
   {
     id: 2,
+    feature: "yes",
     category: "PC Gaming",
     sku: " PGI5VNS4W-02",
     name: "Model SG70",
@@ -68,6 +71,7 @@ export const pcGamingJSON = [
   },
   {
     id: 3,
+    feature: "yes",
     category: "PC Gaming",
     sku: "PGR7VNS4W-01",
     name: "Model SG85",
@@ -91,6 +95,7 @@ export const pcGamingJSON = [
   },
   {
     id: 4,
+    feature: "no",
     category: "PC Gaming",
     sku: " PGI5VNS4W-03",
     name: "Model SG60",
@@ -113,6 +118,7 @@ export const pcGamingJSON = [
   },
   {
     id: 5,
+    feature: "no",
     category: "PC Gaming",
     sku: "PGI5VNS4W-05",
     name: "Model SG70",
@@ -135,6 +141,7 @@ export const pcGamingJSON = [
   },
   {
     id: 9,
+    feature: "no",
     category: "PC Gaming",
     sku: "PGR7VNS4W-03",
     name: "Model SG85",
@@ -159,6 +166,7 @@ export const pcGamingJSON = [
 
   {
     id: 6,
+    feature: "no",
     category: "PC Gaming",
     sku: "PGI5VNS4W-04",
     name: "Model SG60",
@@ -181,6 +189,7 @@ export const pcGamingJSON = [
   },
   {
     id: 7,
+    feature: "no",
     category: "PC Gaming",
     sku: " PGI5VNS4W-06",
     name: "Model SG70 ",
@@ -204,12 +213,14 @@ export const pcGamingJSON = [
 
   {
     id: 10,
+    feature: "no",
     category: "PC Gaming",
     sku: "PGR7VNS4W-04",
     name: "Model SG85",
     img: "https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcGaming/nsx_PGR7VNS4W-04.jpg?raw=true",
 
     gabinete: 111,
+    feature: "no",
     caracteristicas: [
       " Procesador: AMD Ryzen 7 5700X 100100926WOF ",
       " Motherboard : MSI MAG X570 TOMAHAWK MAX WIFI B550MPRO-VDH ",

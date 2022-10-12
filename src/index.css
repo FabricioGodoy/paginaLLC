@@ -8,5 +8,6 @@ body{
   text-align: center;
 }
 .todo{
-  background-color:#e7e7e7;
+  background-color:#fff;
+  font-family:  "Roboto", sans-serif, serif;
 }

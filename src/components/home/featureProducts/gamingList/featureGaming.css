@@ -1,0 +1,44 @@
+.titleProductFeature {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 2rem;
+  font-weight: bold;
+  font-size: 50px;
+}
+.containerFeature {
+  display: flex !important;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+}
+.productContainerFeature {
+  margin: 2rem auto;
+}
+.imgProductGamingFeature {
+  width: 35%;
+}
+.descriptionContainerFeature {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  background-color: #000;
+  width: 35%;
+  height: auto;
+  border-radius: 0 0 5px 5px;
+  flex-direction: column;
+}
+.descriptionContainerFeature h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
