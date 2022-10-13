@@ -47,7 +47,7 @@ const Home = () => {
           <h4> Gamming PCs that we think could be the best option for you </h4>
         </div>
 
-        <span span className="containerSliderHome">
+        <span className="containerSliderHome">
           <section className=" iconCardHomeProduct ">
             <SliderHomeProductGaming />
             <br />

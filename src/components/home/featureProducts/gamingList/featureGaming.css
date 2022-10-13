@@ -7,18 +7,24 @@
   font-size: 50px;
 }
 .containerFeature {
-  display: flex !important;
+  display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  margin: auto;
   width: 100%;
   justify-content: center;
 }
 .productContainerFeature {
-  margin: 2rem auto;
+    display: flex;
+  flex-wrap: nowrap;
+  margin: 1rem auto;
+  width: 45%;
 }
 .imgProductGamingFeature {
-  width: 35%;
+  width: 50%;
+}
+.linkProductFeature {
+  text-decoration: none;
+  display: grid;
+  place-items: center;
 }
 .descriptionContainerFeature {
   position: relative;
@@ -29,7 +35,7 @@
   gap: 0.5rem;
   padding: 1rem;
   background-color: #000;
-  width: 35%;
+  width: 50%;
   height: auto;
   border-radius: 0 0 5px 5px;
   flex-direction: column;
