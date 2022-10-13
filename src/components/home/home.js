@@ -1,7 +1,7 @@
 import React from "react";
 import "./home.css";
 import { SliderPrincipal } from "./bannerHome/SliderPrincipal";
-import { SliderHomeProductGaming } from "./featureProducts/gamingList/sliderHomeProductOffice";
+import { SliderHomeProductGaming } from "./featureProducts/gamingList/sliderHomeProductGaming";
 import logo from "../../images/logos/logo-sn.png";
 import { ProductsDestacados } from "./featureProducts/gamingList/listGamingFeatures";
 

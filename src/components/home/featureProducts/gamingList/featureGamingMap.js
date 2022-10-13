@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { SliderHomeProductGaming } from "./sliderHomeProductOffice";
+import { SliderHomeProductGaming } from "./sliderHomeProductGaming";
 import Slider from "react-slick";
 import "./featureGaming.css";
 
