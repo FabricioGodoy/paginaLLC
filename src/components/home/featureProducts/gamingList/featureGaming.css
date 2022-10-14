@@ -1,25 +1,47 @@
+.containerFeature {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 2em;
+}
+.containerTitle{
+  margin: auto;
+  width: 40%;
+}
 .titleProductFeature {
   display: flex;
   text-align: center;
   justify-content: center;
   margin-top: 2rem;
   font-weight: bold;
+  font-family: "Electrolize";
   font-size: 50px;
 }
-.containerFeature {
+.titleProductFeature2 {
   display: flex;
-  flex-wrap: wrap;
-  width: 100%;
+  text-align: center;
   justify-content: center;
+  margin-top: 0.5rem;
+  font-size: 30px;
 }
+
 .productContainerFeature {
-    display: flex;
-  flex-wrap: nowrap;
-  margin: 1rem auto;
-  width: 45%;
+  margin: 1rem 0;
+  transition: all .5s;
+}
+
+.productContainerFeature:hover{
+  opacity: 0.8;
+}
+.containerDescriptionFeature {
+  display: grid;
+  place-items: center;
+  width: 80%;
 }
 .imgProductGamingFeature {
-  width: 50%;
+  width: 100%;
+  border-radius:10px 10px 0px 0px;
 }
 .linkProductFeature {
   text-decoration: none;
@@ -35,10 +57,11 @@
   gap: 0.5rem;
   padding: 1rem;
   background-color: #000;
-  width: 50%;
+  width: 100%;
   height: auto;
   border-radius: 0 0 5px 5px;
   flex-direction: column;
+  border-radius:0px 0px 10px 10px;
 }
 .descriptionContainerFeature h3 {
   text-align: center;
@@ -47,4 +70,48 @@
   font-size: 25px;
   color: rgb(255, 255, 255);
   font-weight: bold;
+}
+.buttonContainerFeature {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.buttonProductContainerFeature {
+  margin: 1px;
+  padding: 0.4rem;
+  height: auto;
+  width: auto;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  color: white;
+  background-color: #000;
+  border: solid 1px rgb(255, 255, 255);
+  transition: all 0.3s;
+}
+.buttonProductContainerFeature:hover {
+  cursor: pointer;
+  background-color: #f5a742;
+}
+
+.iconCardHomeProductLink {
+  text-decoration: none;
+ 
+}
+.iconCardText {
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 2rem auto; 
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: .3em;
+  transition: all .1s;
+  width: 50%;
+  display: grid;
+  place-items: center;
+}
+.iconCardText:hover {
+  background-color: rgb(238, 238, 238);
+  box-shadow: 1px 1px 5px .01em rgb(110, 109, 109);
 }

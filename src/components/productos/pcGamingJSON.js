@@ -220,7 +220,6 @@ export const pcGamingJSON = [
     img: "https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcGaming/nsx_PGR7VNS4W-04.jpg?raw=true",
 
     gabinete: 111,
-    feature: "no",
     caracteristicas: [
       " Procesador: AMD Ryzen 7 5700X 100100926WOF ",
       " Motherboard : MSI MAG X570 TOMAHAWK MAX WIFI B550MPRO-VDH ",

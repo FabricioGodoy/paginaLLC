@@ -1,30 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./featureGaming.css";
 
-export const FeatureGaming = ({ product }) => {
+export const FeatureOffice = ({ featureOffice }) => {
 
   return (
       <div className=" containerFeature">
         
-        <div className="containerTitle">
-          
-          <h1 className="titleProductFeature">NSX Gaming recommendation</h1>
-          <h4 className="titleProductFeature2">
-            {" "}
-            Gamming PCs that we think could be the best option for you{" "}
-          </h4>
-          
-          <Link to={`/ProductsGaming`}  className=" iconCardHomeProductLink ">
-            <p className=" iconCardText ">See All </p>
-          </Link>
-       
-        </div>
+      
 
-        {product.map((article) => (
+        {featureOffice.map((article) => (
           <article key={article.id} className="productContainerFeature">
             <Link
-              to={`/detailProductGaming/${article.id}`}
+              to={`/detailProductOffice/${article.id}`}
               className="linkProductFeature"
             >
 
@@ -33,7 +20,7 @@ export const FeatureGaming = ({ product }) => {
                 <section className="descriptionContainerFeature">
                   <h3> {article.name}</h3>
                   <div className="buttonContainerFeature">
-                    <Link to={`/detailProductGaming/${article.id}`}>
+                    <Link to={`/detailProductOffice/${article.id}`}>
                       <button className="buttonProductContainerFeature">
                         More Info
                       </button>
@@ -49,6 +36,20 @@ export const FeatureGaming = ({ product }) => {
             </Link>
           </article>
         ))}
+
+<div className="containerTitle">
+          
+          <h1 className="titleProductFeature">NSX OFFICE recommendation</h1>
+          <h4 className="titleProductFeature2">
+            {" "}
+            Office PCs that we think could be the best option for you{" "}
+          </h4>
+          
+          <Link to={`/ProductsOffice`}  className=" iconCardHomeProductLink ">
+            <p className=" iconCardText ">See All </p>
+          </Link>
+       
+        </div>
       </div>
   );
 };

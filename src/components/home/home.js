@@ -1,9 +1,11 @@
 import React from "react";
 import "./home.css";
+import { Link } from "react-router-dom";
 import { SliderPrincipal } from "./bannerHome/SliderPrincipal";
-import { SliderHomeProductGaming } from "./featureProducts/gamingList/sliderHomeProductGaming";
-import logo from "../../images/logos/logo-sn.png";
 import { ProductsDestacados } from "./featureProducts/gamingList/listGamingFeatures";
+import { ProductsDestacadosOffice } from "./featureProducts/officeList/listOfficeFeature";
+import { BannerBuyOnAmazon } from "../../images/banner/bannerBuyOnAmazon";
+import { LogosRedirect } from "./logosRedirect";
 
 const Home = () => {
   return (
@@ -40,30 +42,16 @@ const Home = () => {
           <p>Curated and assembled by pros</p>
         </a>
       </section>
+      {/* ---------- Gaming Feature ----------- */}
+      {<ProductsDestacados />}
+      {/* ---------- FIN Gaming Feature ----------- */}
+      <hr className="hr" />
 
-      <article className="containerCardHomeProduct">
-        <div className="divCardHomeProduct">
-          <h1>NSX Gaming recommendation</h1>
-          <h4> Gamming PCs that we think could be the best option for you </h4>
-        </div>
+      {/*----------- Office Feature ------------ */}
+      {<ProductsDestacadosOffice />}
+      {/*----------- FIN Office Feature ------------ */}
 
-        <span className="containerSliderHome">
-          <section className=" iconCardHomeProduct ">
-            <SliderHomeProductGaming />
-            <br />
-            <a href="/ProductsGaming" className=" iconCardHomeProductLink ">
-              <img
-                src="https://img.icons8.com/carbon-copy/100/000000/more-than.png"
-                className=" iconCardImg "
-              />
-              <p className=" iconCardText ">See all...</p>
-            </a>
-          </section>
-        </span>
-      </article>
-      { <ProductsDestacados />}
-
-      {/*----------- MOBILE -------------- */}
+      {/*----------- MOBILE --------display none en home css------ */}
       <div className="containerProductsMobile">
         <article className="containerSliderProductsGamingHomeMobile">
           <section className=" ProductsGamingHomeMobile ">
@@ -96,34 +84,19 @@ const Home = () => {
       </div>
       {/*----------- FIN MOBILE -------------- */}
 
-      <div className="containerLogoRedirect">
-        <a href="#">
-          <img
-            src="https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/SN-LLC/amazon_logo_carousel.webp"
-            className="logoRedirect"
-          />
-        </a>
-        <a href="#">
-          <img
-            src="https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/SN-LLC/ebay_logo_carousel.webp"
-            className="logoRedirect"
-          />
-        </a>
-        <a href="#">
-          <img
-            src="https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/SN-LLC/newegg_logo_carousel.webp"
-            className="logoRedirect"
-          />
-        </a>
+      {<BannerBuyOnAmazon />}
+
+      <div className="containerContactHome">
+        <h1 className="titleContactHome"> Contact Us </h1>
+        <h3 className="titleContactHome2"> We are here to help you.</h3>
+        <div className="containerButtonContactHome">
+        <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-help-100-most-used-icons-flaticons-flat-flat-icons-2.png" className="imgContactHome"/>
+          <h5 className="titleContactHome3">Ask Away</h5>
+          <Link to={`/Contact`}> <button className="buttonContactHome"> Help</button></Link>
+        </div>
       </div>
 
-      <a href="#">
-        <img
-          src="https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/SN-LLC/banner%20amazon.webp"
-          alt="banner footer amazon"
-          className="imgBanerFooter"
-        />
-      </a>
+      {<LogosRedirect />}
     </div>
   );
 };

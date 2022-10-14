@@ -37,7 +37,7 @@ export const ProductsPCGamingMap = ({ stockGaming }) => {
         ))}
       </div>
       <div className="containerBackButton">
-        <Link to={"/"}>
+        <Link to={"/"} className="linkBackButton">
           <button className="buttonBackButton">
             <div className="iconBack">
               <img src="https://img.icons8.com/ios-glyphs/30/000000/circled-left.png" />

@@ -1,6 +1,11 @@
 .banner img {
   height: 50vh;
 }
+.hr{
+  margin: auto;
+  width: 75%;
+}
+
 .bannerBottomBanner {
   display: flex;
   margin: auto;
@@ -27,48 +32,6 @@
   width: 3rem;
   margin: 0.5rem;
 }
-/* QUICK ACCSESS */
-.quickAccess {
-  display: flex;
-  flex-wrap: nowrap;
-  margin: auto;
-  margin-top: 1.5rem;
-  text-align: center;
-  justify-content: space-around;
-  width: 75vw;
-}
-.cardQuickAccess {
-  display: flex;
-  width: 70vw;
-  margin: 3px;
-  border-radius: 25px 5px 25px 5px;
-  font-weight: bold;
-  align-items: center;
-  background-color: white;
-}
-.cardQuickAccess:hover {
-  cursor: pointer;
-  box-shadow: 1px 2px 1px #f5a742;
-  /* border: 3px solid #f7a902; */
-  /*  box-shadow: 1px 1px 10px .1px; */
-}
-.iconsQuickAccess {
-  width: 3rem;
-  height: 3rem;
-  margin: 2px;
-  transition: all 1500ms;
-}
-.cardQuickAccess:hover img {
-  transform: rotateY(-360deg);
-}
-.cardQuickAccess a {
-  text-decoration: none;
-  color: black;
-  margin: auto;
-  text-align: center;
-  justify-content: space-around;
-}
-/* QUICK ACCSESS */
 
 /* SLIDER HOME */
 .sliderHomeProducts {
@@ -128,14 +91,8 @@
   background-color: #e0e0e0;
   box-shadow: 1px 1px 90px 0.1rem #666564;
 }
-.containerSliderHome h1,
-.containerSliderHome h4 {
-  display: flex;
-}
 
-.linkCardHomeProduct {
-  text-decoration: none;
-}
+
 .imgCardHomeProduct {
   margin: auto;
   width: 20vw;
@@ -159,32 +116,31 @@
   cursor: pointer;
 }
 
-/* .iconCardHomeProduct img {
-  transition: all 0.3s;
-  opacity: 1;
+.containerSliderProductsGamingHomeMobile{
+  display: none;
 }
 
-.iconCardHomeProduct:hover img {
-  cursor: pointer;
-  opacity: 0.03;
-} */
 
-.iconCardText {
-  color: black;
-  font-weight: 500;
-}
-.iconCardHomeProductLink {
-  text-decoration: none;
-  margin-left: 2rem;
-}
-.iconCardHomeProduct p {
-  transition: all 0.3s;
-  opacity: 0.05;
-  font-size: 17px;
-}
 
-.iconCardHomeProduct:hover p {
-  opacity: 1;
+/* PRODUCTS */
+
+
+.containerLogoRedirect {
+  margin-top: 5%;
+  margin-bottom: .5%;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: #27262b;
+/*   background-color: #222a33; */
+}
+.logoRedirect {
+  border-radius: 10000px;
+  width: 15rem;
+  margin: 1rem 0rem 1rem 0rem;
+}
+.logoRedirect:hover {
+  box-shadow: 1px 5px 15px 10px rgb(90, 88, 88);
 }
 
 .imgBanerFooter {
@@ -196,22 +152,30 @@
 .imgBanerFooter:hover {
   box-shadow: 3px 1px 5px 1px black;
 }
-.containerLogoRedirect {
-  margin-top: 5%;
-  display: flex;
-  width: 100%;
-  justify-content: space-evenly;
-  background-color: #27262b;
-}
-.logoRedirect {
-  border-radius: 10000px;
-  width: 15rem;
-  margin: 1rem 0rem 1rem 0rem;
-}
-.logoRedirect:hover {
-  box-shadow: 1px 5px 15px 10px rgb(90, 88, 88);
-}
 
+.containerContactHome{
+  display: grid;
+  place-items: center;
+  width: 97%;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f8f8f8;
+}
+.titleContactHome{
+  text-decoration: underline;
+  margin: 0rem 0rem 01rem 0rem ;
+}
+.imgContactHome{
+ margin: 1rem;
+ width: 6rem;
+}
+.buttonContactHome{
+  width: 100%;
+  background-color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 5px;
+}
 
 
 @media (max-width: 1300px) {
@@ -289,12 +253,7 @@
   .banner {
     display: none;
   }
-  /*   .containerCardHomeProduct {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
-  } */
+
   .cardHomeProduct {
     overflow: hidden;
     margin: 25px;

@@ -1,10 +1,9 @@
 import React,{ useEffect, useState} from "react";
 import { useParams } from "react-router-dom";
-import { FeatureGaming } from "./featureGamingMap";
-import { RequestFeatureGaming } from "../../../helpers/requestDataFeatureGaming"; 
+import { FeatureOffice } from "./featureOfficeMap";
+import { RequestFeatureOffice } from "../../../helpers/requestDataFeatureOffice";
 
-
-export function ProductsDestacados (){
+export function ProductsDestacadosOffice (){
     const [ loading, setLoading ] = useState(false)
     const [ product, setProduct ] = useState([])
     const { param } = useParams()
@@ -12,7 +11,7 @@ export function ProductsDestacados (){
 /* Function to validate the product, matching the category property with the url  */
         useEffect( ()=>{
             setLoading(true)
-            RequestFeatureGaming()
+            RequestFeatureOffice()
                 .then( (res) =>{
                     if (!param) {
                         setProduct(res)
@@ -30,7 +29,7 @@ export function ProductsDestacados (){
 }, [param])
     return(
         <>
-            {loading ? <p>Loading...</p> : <FeatureGaming product={product}/>}
+            {loading ? <p>Loading...</p> : <FeatureOffice featureOffice={product}/>}
         </>
     )
 }
