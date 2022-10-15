@@ -184,5 +184,10 @@
   .logosFooter {
     margin-right: 20%;
   }
+  .itemSecondColumnInput{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
 }

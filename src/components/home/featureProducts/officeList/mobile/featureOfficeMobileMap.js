@@ -1,14 +1,27 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export const FeatureOffice = ({ featureOffice }) => {
+export const FeatureOfficeMobile = ({ officeMobile }) => {
 
   return (
-      <div className=" containerFeature containerFeatureMobileOff">
+      <div className=" containerFeature containerFeatureMobileOn ">
         
+<div className="containerTitle">
+          
+          <h1 className="titleProductFeature">NSX OFFICE recommendation</h1>
+          <h4 className="titleProductFeature2">
+            {" "}
+            Office PCs that we think could be the best option for you{" "}
+          </h4>
+          
+          <Link to={`/ProductsOffice`}  className=" iconCardHomeProductLink ">
+            <p className=" iconCardText ">See All </p>
+          </Link>
+       
+        </div>
       
 
-        {featureOffice.map((article) => (
+        {officeMobile.map((article) => (
           <article key={article.id} className="productContainerFeature">
             <Link
               to={`/detailProductOffice/${article.id}`}
@@ -37,19 +50,6 @@ export const FeatureOffice = ({ featureOffice }) => {
           </article>
         ))}
 
-<div className="containerTitle">
-          
-          <h1 className="titleProductFeature">NSX OFFICE recommendation</h1>
-          <h4 className="titleProductFeature2">
-            {" "}
-            Office PCs that we think could be the best option for you{" "}
-          </h4>
-          
-          <Link to={`/ProductsOffice`}  className=" iconCardHomeProductLink ">
-            <p className=" iconCardText ">See All </p>
-          </Link>
-       
-        </div>
       </div>
   );
 };

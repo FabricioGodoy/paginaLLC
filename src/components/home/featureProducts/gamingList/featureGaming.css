@@ -5,6 +5,9 @@
   justify-content: space-evenly;
   padding: 2em;
 }
+.containerFeatureMobileOn{
+  display: none;
+}
 .containerTitle{
   margin: auto;
   width: 40%;
@@ -27,6 +30,7 @@
 }
 
 .productContainerFeature {
+  width: 45%;
   margin: 1rem 0;
   transition: all .5s;
 }
@@ -114,4 +118,78 @@
 .iconCardText:hover {
   background-color: rgb(238, 238, 238);
   box-shadow: 1px 1px 5px .01em rgb(110, 109, 109);
+}
+
+@media (max-width: 1300px) {
+  .containerFeature{
+    width: 90%;
+    margin:auto;
+  }
+  .containerTitle{
+    width:  80%;
+  }
+  .containerDescriptionFeature{
+    width: 20vw;
+    margin: 5px;
+  }
+
+}
+
+@media (max-width: 1000px) {
+  
+  .containerFeature{
+    display: grid;
+    place-items: center;
+  }
+  
+  .productContainerFeature{
+   margin-top: 0;
+  }
+  .containerFeatureMobileOn{
+   display: grid;
+   place-items: center;
+  }
+  .containerFeatureMobileOff{
+    display: none;
+  }
+  .containerDescriptionFeature{
+    width: 100%;
+  }
+  
+}
+
+@media (max-width: 800px){
+  .containerDescriptionFeature{
+    width: 150%;
+  }
+}
+ 
+@media (max-width: 600px) {
+  .containerDescriptionFeature{
+    width: 200%;
+    display: grid;
+    place-items: center;
+  }
+} 
+
+@media (max-width: 400px){
+  .containerFeature{
+    width: 10%;
+  }
+  .containerTitle{
+    width:  60%;
+  }
+  .titleProductFeature{
+    font-size: 40px;
+    margin: auto;
+  }
+  
+  .titleProductFeature2{
+    font-size: 20px;
+    margin: auto;
+  }
+
+  .containerDescriptionFeature{
+    width: 110%;
+  }
 }

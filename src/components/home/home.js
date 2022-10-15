@@ -6,6 +6,7 @@ import { ProductsDestacados } from "./featureProducts/gamingList/listGamingFeatu
 import { ProductsDestacadosOffice } from "./featureProducts/officeList/listOfficeFeature";
 import { BannerBuyOnAmazon } from "../../images/banner/bannerBuyOnAmazon";
 import { LogosRedirect } from "./logosRedirect";
+import { ProductsDestacadosOfficeMobile } from "./featureProducts/officeList/mobile/listOfficeMobile";
 
 const Home = () => {
   return (
@@ -50,6 +51,12 @@ const Home = () => {
       {/*----------- Office Feature ------------ */}
       {<ProductsDestacadosOffice />}
       {/*----------- FIN Office Feature ------------ */}
+
+      {/*----------- Office Feature MOBILE------------ */}
+      {<ProductsDestacadosOfficeMobile />}
+      {/*----------- FIN Office Feature MOBILE------------ */}
+
+
 
       {/*----------- MOBILE --------display none en home css------ */}
       <div className="containerProductsMobile">
