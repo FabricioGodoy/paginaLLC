@@ -12,6 +12,8 @@ import { DetailProduct } from "./components/home/productsOfficeDetail/productDet
 import { ProductsGamingView } from "./components/home/productsGaming/productsPCGaming" 
 import { ProductsGamingDetail } from  "./components/home/productsGamingDetail/productsGamingDetail"
 import { Contact } from "./components/contact/contact.js"
+import { NotFound } from "./components/notFoundPage/notFound";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -21,8 +23,9 @@ function App() {
         <Navbar />
         <div className="todo">
           <Routes>
-            <Route path="*" element={<Navigate to="/" />} />
+            <Route path="*" element={<Navigate to="/notFound" />} />
             <Route path="/" exact={true} element={<Home />} />
+            <Route path="/notFound" exact={true} element={<NotFound />} />
             <Route path="/ProductsOffice" element= { <ProductsOfficeView/> }/>
             <Route path="/detailProductOffice/:catId" element= { <DetailProduct/> }/>
             <Route path="/ProductsGaming" element= { <ProductsGamingView/> }/>

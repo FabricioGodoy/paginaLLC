@@ -1,7 +1,7 @@
 .banner img {
   height: 50vh;
 }
-.hr{
+.hr {
   margin: auto;
   width: 75%;
 }
@@ -92,7 +92,6 @@
   box-shadow: 1px 1px 90px 0.1rem #666564;
 }
 
-
 .imgCardHomeProduct {
   margin: auto;
   width: 20vw;
@@ -116,23 +115,20 @@
   cursor: pointer;
 }
 
-.containerSliderProductsGamingHomeMobile{
+.containerSliderProductsGamingHomeMobile {
   display: none;
 }
 
-
-
 /* PRODUCTS */
-
 
 .containerLogoRedirect {
   margin-top: 5%;
-  margin-bottom: .5%;
+ /*  margin-bottom: 0.5%; */
   display: flex;
   width: 100%;
   justify-content: space-evenly;
   background-color: #27262b;
-/*   background-color: #222a33; */
+  /*   background-color: #222a33; */
 }
 .logoRedirect {
   border-radius: 10000px;
@@ -148,12 +144,13 @@
   height: 20rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  transition: all .2s;
 }
 .imgBanerFooter:hover {
   box-shadow: 3px 1px 5px 1px black;
 }
 
-.containerContactHome{
+.containerContactHome {
   display: grid;
   place-items: center;
   width: 97%;
@@ -161,22 +158,25 @@
   padding: 2rem;
   background-color: #f8f8f8;
 }
-.titleContactHome{
+.titleContactHome {
   text-decoration: underline;
-  margin: 0rem 0rem 01rem 0rem ;
+  margin: 0rem 0rem 01rem 0rem;
 }
-.imgContactHome{
- margin: 1rem;
- width: 6rem;
+.imgContactHome {
+  margin: 1rem;
+  width: 6rem;
 }
-.buttonContactHome{
+.buttonContactHome {
   width: 100%;
   background-color: #fff;
   font-size: 25px;
   font-weight: bold;
   border-radius: 5px;
+  transition: all .2s;
 }
-
+.buttonContactHome:hover{
+  background-color: #f5a742;;
+}
 
 @media (max-width: 1300px) {
   .cardQuickAccess {
@@ -205,9 +205,7 @@
   .banner {
     height: 40vh;
   }
-  .imgBanerFooter {
-    display: none;
-  }
+
   .containerCardHomeProduct {
     display: none;
   }
@@ -271,6 +269,11 @@
     font-size: 40px;
   }
   .bannerBottomBanner p {
+    display: none;
+  }
+}
+@media (max-width: 700px) {
+  .imgBanerFooter {
     display: none;
   }
 }

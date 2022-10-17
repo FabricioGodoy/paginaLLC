@@ -21,6 +21,12 @@ export const LogosRedirect = () => {
         className="logoRedirect"
       />
     </a>
+    <a href="#">
+      <img
+        src="https://raw.githubusercontent.com/FabricioGodoy/imagenes/main/SN-LLC/newegg_logo_carousel.webp"
+        className="logoRedirect"
+      />
+    </a>
   </div>
   )
 }

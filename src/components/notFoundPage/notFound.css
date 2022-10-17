@@ -1,0 +1,21 @@
+.containerNotFound{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-evenly;
+    padding: 12rem;
+}
+ .imgNotFound{
+    /* left: 27vw;
+    top: 40vh; */
+    margin: auto;
+    width: 4rem;
+    height: 4rem;
+}
+.containerListNotFound{
+    margin: auto;
+}
+.listNotFound{
+    color: grey;
+    font-size: 20px;
+}
+ 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
 .containerFeature {
   display: flex;
   flex-wrap: nowrap;
@@ -5,10 +7,10 @@
   justify-content: space-evenly;
   padding: 2em;
 }
-.containerFeatureMobileOn{
+.containerFeatureMobileOn {
   display: none;
 }
-.containerTitle{
+.containerTitle {
   margin: auto;
   width: 40%;
 }
@@ -30,12 +32,12 @@
 }
 
 .productContainerFeature {
-  width: 45%;
+  width: 30vw;
   margin: 1rem 0;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
-.productContainerFeature:hover{
+.productContainerFeature:hover {
   opacity: 0.8;
 }
 .containerDescriptionFeature {
@@ -45,7 +47,7 @@
 }
 .imgProductGamingFeature {
   width: 100%;
-  border-radius:10px 10px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
 }
 .linkProductFeature {
   text-decoration: none;
@@ -65,7 +67,7 @@
   height: auto;
   border-radius: 0 0 5px 5px;
   flex-direction: column;
-  border-radius:0px 0px 10px 10px;
+  border-radius: 0px 0px 10px 10px;
 }
 .descriptionContainerFeature h3 {
   text-align: center;
@@ -100,96 +102,107 @@
 
 .iconCardHomeProductLink {
   text-decoration: none;
- 
 }
 .iconCardText {
   color: black;
   font-weight: 500;
   font-size: 20px;
-  margin: 2rem auto; 
+  margin: 2rem auto;
   border: 1px solid black;
   border-radius: 5px;
-  padding: .3em;
-  transition: all .1s;
+  padding: 0.3em;
+  transition: all 0.1s;
   width: 50%;
   display: grid;
   place-items: center;
 }
 .iconCardText:hover {
   background-color: rgb(238, 238, 238);
-  box-shadow: 1px 1px 5px .01em rgb(110, 109, 109);
+  box-shadow: 1px 1px 5px 0.01em rgb(110, 109, 109);
 }
 
 @media (max-width: 1300px) {
-  .containerFeature{
+  .containerFeature {
     width: 90%;
-    margin:auto;
+    margin: auto;
   }
-  .containerTitle{
-    width:  80%;
+  .containerTitle {
+    width: 80%;
   }
-  .containerDescriptionFeature{
+  .containerDescriptionFeature {
     width: 20vw;
     margin: 5px;
   }
-
 }
 
 @media (max-width: 1000px) {
-  
-  .containerFeature{
+  .containerFeature {
+    display: flex;
+    flex-wrap: wrap;
+    place-items: center;
+  }
+
+  .productContainerFeature {
+    margin-top: 0;
+    width: 20vw;
+  }
+  .containerFeatureMobileOn {
+    display: flex;
+    flex-wrap: wrap;
+    place-items: center;
+  }
+  .containerFeatureMobileOff {
+    display: none;
+  }
+  .containerDescriptionFeature {
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .containerFeature {
     display: grid;
     place-items: center;
   }
-  
-  .productContainerFeature{
-   margin-top: 0;
-  }
-  .containerFeatureMobileOn{
-   display: grid;
-   place-items: center;
-  }
-  .containerFeatureMobileOff{
+  .containerFeatureMobileOff {
     display: none;
   }
-  .containerDescriptionFeature{
-    width: 100%;
-  }
-  
-}
-
-@media (max-width: 800px){
-  .containerDescriptionFeature{
+  .containerDescriptionFeature {
     width: 150%;
   }
 }
- 
+
 @media (max-width: 600px) {
-  .containerDescriptionFeature{
+  .containerDescriptionFeature {
     width: 200%;
     display: grid;
     place-items: center;
   }
-} 
+}
 
-@media (max-width: 400px){
-  .containerFeature{
-    width: 10%;
+@media (max-width: 400px) {
+  .containerFeature {
+    width: 100%;
+    margin: auto;
   }
-  .containerTitle{
-    width:  60%;
+  .containerTitle {
+    width: 60%;
   }
-  .titleProductFeature{
+  .titleProductFeature {
     font-size: 40px;
     margin: auto;
   }
-  
-  .titleProductFeature2{
+
+  .titleProductFeature2 {
     font-size: 20px;
     margin: auto;
   }
 
-  .containerDescriptionFeature{
-    width: 110%;
+  .containerDescriptionFeature {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    width: 60vw;
   }
 }
