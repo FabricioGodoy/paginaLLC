@@ -1,21 +1,26 @@
 .containerNotFound{
     display: flex;
-    flex-wrap: nowrap;
-    justify-content:space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 12rem;
 }
  .imgNotFound{
-    /* left: 27vw;
-    top: 40vh; */
     margin: auto;
     width: 4rem;
     height: 4rem;
 }
 .containerListNotFound{
+    display: grid;
+    place-items: center;
+    margin: auto;
+    padding: 1rem;
     margin: auto;
 }
 .listNotFound{
+    display: grid;
+    place-items: center;
     color: grey;
     font-size: 20px;
+    width: 90vw;
 }
  
