@@ -6,7 +6,7 @@ import SlickPCOffice from "./sliderProductsPCOffice";
 export const ProductMap = ({ stock }) => {
   return (
     <>
-    <h1 className="titleProduct"> PC's Office</h1>
+    <h1 className=" titleProductFeature "> PC's Office</h1>
     <div className=" containerProduct">
       {stock.map((article) => (
         <article key={article.id} className="productContainerGammig">

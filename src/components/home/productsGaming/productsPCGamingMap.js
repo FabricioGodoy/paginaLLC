@@ -6,7 +6,7 @@ import "./productsPCGaming.css";
 export const ProductsPCGamingMap = ({ stockGaming }) => {
   return (
     <>
-      <h1 className="titleProduct"> PC's Gaming</h1>
+      <h1 className=" titleProductFeature"> PC's Gaming</h1>
       <div className=" containerProduct">
         {stockGaming.map((article) => (
           <article key={article.id} className="productContainerGammig">

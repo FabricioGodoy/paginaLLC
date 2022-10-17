@@ -6,13 +6,13 @@
   position: relative;
   margin: auto;
 }
-.titleProduct {
+/* .titleProduct {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   font-family: "Roboto", sans-serif, serif;
   font-weight: 500;
-}
+} */
 .linkProduct {
   text-decoration: none;
   width: 100%;

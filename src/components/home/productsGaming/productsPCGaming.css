@@ -6,13 +6,7 @@
   position: relative;
   margin: auto;
 }
-.titleProduct {
-  display: flex;
-  font-size: 500%;
-  justify-content: space-around;
-  font-family: "Roboto", sans-serif, serif;
-  font-weight: 500;
-}
+
 .productContainerGammig {
   display: flex;
   flex-wrap: wrap;
