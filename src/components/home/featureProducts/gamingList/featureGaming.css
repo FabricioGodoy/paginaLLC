@@ -155,7 +155,7 @@
     display: none;
   }
   .containerDescriptionFeature {
-    width: 100%;
+    width: 80%;
   }
 }
 
@@ -168,13 +168,13 @@
     display: none;
   }
   .containerDescriptionFeature {
-    width: 150%;
+    width: 60%;
   }
 }
 
 @media (max-width: 600px) {
   .containerDescriptionFeature {
-    width: 200%;
+    width: 50%;
     display: grid;
     place-items: center;
   }
