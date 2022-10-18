@@ -14,35 +14,35 @@ const Home = () => {
       <SliderPrincipal />
       {/* ----------- Option botton banner ----------- */}
       <section className="bannerBottomBanner">
-        {/* <img src={logo}/> */}
-        <a href="#" className="bottomBannerItem">
-          <img
-            className="imgBannerBottomBanner"
-            src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/FFFFFF/external-cpu-cyber-security-kiranshastry-solid-kiranshastry-5.png"
-          />
-          <p>High quiality components</p>
-        </a>
-        <a href="#" className="bottomBannerItem">
+          <span className="bottomBannerItem">
+            <img
+              className="imgBannerBottomBanner "
+              src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/FFFFFF/external-cpu-cyber-security-kiranshastry-solid-kiranshastry-5.png"
+            />
+            <p>High quiality components</p>
+          </span>x
+          <span className="bottomBannerItem">
           <img
             className="imgBannerBottomBanner"
             src="https://img.icons8.com/sf-regular-filled/48/FFFFFF/gears.png"
           />
           <p>Customizable and pre-biult option</p>
-        </a>
-        <a href="#" className="bottomBannerItem">
+          </span>
+          <span className="bottomBannerItem">
           <img
             className="imgBannerBottomBanner"
             src="https://img.icons8.com/ios/50/FFFFFF/discount--v1.png"
           />
           <p>The best prices on the market</p>
-        </a>
-        <a href="#" className="bottomBannerItem">
+          </span>
+  
+          <span className="bottomBannerItem">
           <img
             className="imgBannerBottomBanner"
             src="https://img.icons8.com/ios-filled/50/FFFFFF/puzzle.png"
           />
           <p>Curated and assembled by pros</p>
-        </a>
+          </span>
       </section>
       {/* ----------- FIN Option botton banner ----------- */}
      

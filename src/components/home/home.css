@@ -13,24 +13,21 @@
   background-color: #27262b;
   color: white;
   align-items: center;
-  font-weight: 700;
+  font-weight: bold ;
 }
 .bottomBannerItem {
+  display: grid;
+  place-items: center;
   color: white;
   text-decoration: none;
   text-align: center;
-  width: 100%;
-  margin: 1rem;
-  transition: all 0.2s;
+  width: 80%;
+  margin: .1rem;
 }
-.bottomBannerItem:hover {
-  cursor: pointer;
-  color: #f5a742;
-  box-shadow: 1px 1px 10px 1px white;
-}
+
 .imgBannerBottomBanner {
-  width: 3rem;
-  margin: 0.5rem;
+  width: 2rem;
+  /* margin: 0.5rem; */
 }
 
 /* SLIDER HOME */
@@ -186,9 +183,9 @@
   display:grid;
   place-items: center;
   justify-content: space-evenly;
-  margin: auto;
+  margin: 1rem;
   padding:2rem;
-  text-align: start;
+  text-align: center;
   width: 80%;
 }
 .helpers h2{
@@ -199,6 +196,7 @@
 .helpers p{
   font-size: 14px;
   line-height: 18px;
+  padding: 1rem 2rem 1rem 2rem;
 }
 .logosInfoHelper{
   margin: 1rem;
