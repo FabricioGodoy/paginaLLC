@@ -12,6 +12,7 @@ const Home = () => {
   return (
     <div className="home">
       <SliderPrincipal />
+      {/* ----------- Option botton banner ----------- */}
       <section className="bannerBottomBanner">
         {/* <img src={logo}/> */}
         <a href="#" className="bottomBannerItem">
@@ -43,56 +44,23 @@ const Home = () => {
           <p>Curated and assembled by pros</p>
         </a>
       </section>
+      {/* ----------- FIN Option botton banner ----------- */}
+     
       {/* ---------- Gaming Feature ----------- */}
       {<ProductsDestacados />}
       {/* ---------- FIN Gaming Feature ----------- */}
-      <hr className="hr" />
-
+        <hr className="hr" />
       {/*----------- Office Feature ------------ */}
       {<ProductsDestacadosOffice />}
       {/*----------- FIN Office Feature ------------ */}
-
+     
       {/*----------- Office Feature MOBILE------------ */}
       {<ProductsDestacadosOfficeMobile />}
       {/*----------- FIN Office Feature MOBILE------------ */}
 
-
-
-      {/*----------- MOBILE --------display none en home css------ */}
-      <div className="containerProductsMobile">
-        <article className="containerSliderProductsGamingHomeMobile">
-          <section className=" ProductsGamingHomeMobile ">
-            <a href="/detailProductGaming/1">
-              <img
-                src="https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcGaming/nsx_PGI5VNS4W-01.jpg?raw=true"
-                className="imgCardHomeProductMobile"
-              />
-            </a>
-          </section>
-
-          <section className=" ProductsGamingHomeMobile ">
-            <a href="/detailProductGaming/8">
-              <img
-                src="https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcGaming/nsx_PGR7VNS4W-02.jpg?raw=true"
-                className="imgCardHomeProductMobile"
-              />
-            </a>
-          </section>
-
-          <section className=" ProductsGamingHomeMobile ">
-            <a href="/detailProductGaming/3">
-              <img
-                src="https://github.com/FabricioGodoy/imagenes/blob/main/SN-LLC/pcGaming/nsx_PGR7VNS4W-01.jpg?raw=true"
-                className="imgCardHomeProductMobile"
-              />
-            </a>
-          </section>
-        </article>
-      </div>
-      {/*----------- FIN MOBILE -------------- */}
-
       {<BannerBuyOnAmazon />}
 
+{/* ---------------contact us --------------------- */}
       <div className="containerContactHome">
         <h1 className="titleContactHome"> Contact Us </h1>
         <h3 className="titleContactHome2"> We are here to help you.</h3>
@@ -102,6 +70,29 @@ const Home = () => {
           <Link to={`/Contact`}> <button className="buttonContactHome"> Help</button></Link>
         </div>
       </div>
+{/* --------------- FIN contact us --------------------- */}
+
+
+{/* ----------HELPERS-------------- */}
+      <div className="containerHelpers">
+        <div className="helpers">
+          <img className="logosInfoHelper" src= "https://raw.githubusercontent.com/FabricioGodoy/imagenes/c462c07dd67472ecd07774148ae5c4c2d93e1afa/SN-LLC/icon_fast_ship.svg"/>
+          <h2 > Fast & Free Shipping</h2>
+          <p> Our gaming PCs will be shipped the same da with free two-day shipping (excluding custom gaming PCs and laptops)</p>
+        </div>
+        <div className="helpers" >
+          <img className="logosInfoHelper" src= "https://raw.githubusercontent.com/FabricioGodoy/imagenes/c462c07dd67472ecd07774148ae5c4c2d93e1afa/SN-LLC/icon_assembled.svg"/>
+          <h2> Assembled in the USA</h2>
+          <p> Every gaming pc and laptop that goes through iBUYPOWER’s assembly line is carefully hand assembled in the USA.</p>
+        </div>
+        <div className="helpers"  >
+          <img className="logosInfoHelper" src= "https://raw.githubusercontent.com/FabricioGodoy/imagenes/c462c07dd67472ecd07774148ae5c4c2d93e1afa/SN-LLC/icon_lifttime%20support.svg"/>
+          <h2> Standard X Year Warranty</h2>
+          <p> Every purchase from iBUYPOWER comes with a standard 3-year warranty supported by our in-house technicians.</p>
+        </div>
+      </div>
+{/* ----------FIN HELPERS-------------- */}
+
 
       {<LogosRedirect />}
     </div>

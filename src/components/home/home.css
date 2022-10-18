@@ -71,9 +71,6 @@
   display: inline;
 }
 
-.containerProductsMobile {
-  display: none;
-}
 
 .containerSliderHome {
   display: block;
@@ -115,9 +112,6 @@
   cursor: pointer;
 }
 
-.containerSliderProductsGamingHomeMobile {
-  display: none;
-}
 
 /* PRODUCTS */
 
@@ -125,6 +119,7 @@
   margin-top: 5%;
  /*  margin-bottom: 0.5%; */
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   justify-content: space-evenly;
   background-color: #27262b;
@@ -162,6 +157,11 @@
   text-decoration: underline;
   margin: 0rem 0rem 01rem 0rem;
 }
+.titleContactHome3{
+  display: grid;
+  justify-content: center;
+  padding: .5rem
+}
 .imgContactHome {
   margin: 1rem;
   width: 6rem;
@@ -176,6 +176,33 @@
 }
 .buttonContactHome:hover{
   background-color: #f5a742;;
+}
+.containerHelpers{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100vw;
+}
+.helpers{
+  display:grid;
+  place-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  padding:2rem;
+  text-align: start;
+  width: 80%;
+}
+.helpers h2{
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+}
+.helpers p{
+  font-size: 12px;
+  line-height: 18px;
+}
+.logosInfoHelper{
+  margin: 1rem;
+  width: 5rem;
 }
 
 @media (max-width: 1300px) {
@@ -210,29 +237,9 @@
     display: none;
   }
 
-  .containerProductsMobile {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 100vw;
-    margin: auto;
-    justify-content: center;
-  }
-
-  .ProductsGamingHomeMobile {
-    display: flex;
-    background-color: #e7e7e7;
-    border-radius: 20px;
-    width: 70vw;
-    margin: 2rem;
-  }
-
-  .imgCardHomeProductMobile {
-    display: flex;
-    width: 70%;
-    margin: auto;
-  }
 
   .containerLogoRedirect {
+
     border-bottom: solid 15px #222a33;
   }
 }
@@ -270,6 +277,12 @@
   }
   .bannerBottomBanner p {
     display: none;
+  }
+  .containerHelpers{
+    flex-wrap: wrap;
+  }
+  .helpers{
+    text-align: center; 
   }
 }
 @media (max-width: 700px) {
