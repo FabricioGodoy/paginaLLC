@@ -1,8 +1,10 @@
 .containerContact {
+  display: flex;
   width: 100%;
   height: 105vh;
   margin: auto;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 .containerTittleContact {
   display: flex;
@@ -21,10 +23,8 @@
 }
 
 .formContactContainer {
-  position: absolute;
   margin-top: 3%;
   margin-left: 15%;
-  padding: 30px;
   width: 70%;
   text-align: center;
 }
@@ -128,6 +128,9 @@
 .containerTittleContact h3 {
   margin-left: 5rem;
 }
+.containerContact {
+  height: 105vh;
+}
 }
 
 @media (max-width: 650px) {
@@ -136,9 +139,13 @@
     margin: 3% 5%;
     padding: 1rem;
   }
-}
-
-@media (max-width: 450px) {
+  .containerContact {
+    height: 110vh;
+    overflow: hidden;
+  }
+  }
+  
+  @media (max-width: 450px) {
   .formContactContainer {
     width: 90%;
     margin: 3% 5%;
