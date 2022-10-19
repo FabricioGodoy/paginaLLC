@@ -156,3 +156,8 @@
     margin-left: 2rem;
   }
 }
+@media (max-height: 700px) {
+  .containerContact{
+    height: 130vh;
+  }
+}
