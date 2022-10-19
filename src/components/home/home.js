@@ -20,7 +20,7 @@ const Home = () => {
               src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/FFFFFF/external-cpu-cyber-security-kiranshastry-solid-kiranshastry-5.png"
             />
             <p>High quiality components</p>
-          </span>x
+          </span>
           <span className="bottomBannerItem">
           <img
             className="imgBannerBottomBanner"
@@ -83,12 +83,12 @@ const Home = () => {
         <div className="helpers" >
           <img className="logosInfoHelper" src= "https://raw.githubusercontent.com/FabricioGodoy/imagenes/c462c07dd67472ecd07774148ae5c4c2d93e1afa/SN-LLC/icon_assembled.svg"/>
           <h2> Assembled in the USA</h2>
-          <p> Every gaming pc and laptop that goes through iBUYPOWER’s assembly line is carefully hand assembled in the USA.</p>
+          <p> Every gaming pc and laptop that goes through SHOPNOW’s assembly line is carefully hand assembled in the USA.</p>
         </div>
         <div className="helpers"  >
           <img className="logosInfoHelper" src= "https://raw.githubusercontent.com/FabricioGodoy/imagenes/c462c07dd67472ecd07774148ae5c4c2d93e1afa/SN-LLC/icon_lifttime%20support.svg"/>
-          <h2> Standard X Year Warranty</h2>
-          <p> Every purchase from iBUYPOWER comes with a standard 3-year warranty supported by our in-house technicians.</p>
+          <h2> Standard -- -- Year Warranty</h2>
+          <p> Every purchase from SHOPNOW comes with a standard 3-year warranty supported by our in-house technicians.</p>
         </div>
       </div>
 {/* ----------FIN HELPERS-------------- */}

@@ -20,6 +20,7 @@
   justify-content: space-around;
 }
 .itemFirstColum {
+  justify-content: center;
   width: 100%;
   margin: auto;
 }
@@ -63,8 +64,8 @@
   width: 4rem;
   color: white;
 }
-.itemSecondColumnInput input{
-  margin: .3rem 1rem;
+.itemSecondColumnInput input {
+  margin: 0.3rem 1rem;
   font-size: 20px;
   border-radius: 5px;
 }
@@ -136,13 +137,10 @@
     display: none;
   }
   .logosFooter {
-    
     display: flex;
     align-items: center;
-    margin: auto;
-    margin-right: 35%;
+    margin: 0 50vw;
   }
-  
 }
 @media (max-width: 900px) {
   .itemSecondColumn h5 {
@@ -154,40 +152,28 @@
   .itemSecondColumn p {
     display: none;
   }
-  .itemSecondColumnInput{
+  .itemSecondColumnInput {
     display: flex;
-    margin: 35vw ;
-
+    margin: 35vw;
   }
 }
 @media (max-width: 800px) {
-
-.listThirdColum{
-  flex-direction: column;
-}
-.listThirdColum li{
-  margin: 10px;
-}
-.logosFooter {
-  margin-right: 30%;
-}
-}
-@media (max-width: 600px) {
-  
-  .logosFooter {
-    margin-right: 25%;
+  .listThirdColum {
+    flex-direction: column;
   }
-
+  .listThirdColum li {
+    margin: 5px auto;
+  }
 }
+
 @media (max-width: 400px) {
-  
   .logosFooter {
-    margin-right: 20%;
+    flex-wrap: nowrap;
+    align-items: center;
   }
-  .itemSecondColumnInput{
+  .itemSecondColumnInput {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
-
 }

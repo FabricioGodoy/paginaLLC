@@ -4,7 +4,6 @@ import "./footer.css";
 export const Footer = () => {
   return (
     <div className="containerFooter">
-      
       <div className="footerFirstColumn">
         <div className="itemFirstColum">
           <p>Order Online or Call:</p>
@@ -54,25 +53,23 @@ export const Footer = () => {
         </div>
         <hr className="divisorHRfooter" />
         <div className="itemSecondColumnInput ">
-            <input type="email" name="emailUser" placeholder=" NEWSLETTER"/>
-            <button type="submit" className="buttonNewsLetter">
-              Send
-            </button>
+          <input type="email" name="emailUser" placeholder=" NEWSLETTER" />
+          <button type="submit" className="buttonNewsLetter">
+            Send
+          </button>
         </div>
       </div>
 
       <div className="footerThirdColumn">
-          <ul className="listThirdColum">
-            <li> Privacy </li>
-            <li> Warranty {"&"} Return </li>
-            <li> Ecom Warranty </li>
-            <li> Refurbished Item Warranty </li>
-            <li> Recycling </li>
-            <li> Site map </li>
-          </ul>
+        <ul className="listThirdColum">
+          <li> Privacy </li>
+          <li> Warranty {"&"} Return </li>
+          <li> Ecom Warranty </li>
+          <li> Refurbished Item Warranty </li>
+          <li> Recycling </li>
+          <li> Site map </li>
+        </ul>
       </div>
-
-
     </div>
   );
 };

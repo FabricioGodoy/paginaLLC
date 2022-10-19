@@ -27,37 +27,9 @@
 
 .imgBannerBottomBanner {
   width: 2rem;
-  /* margin: 0.5rem; */
+  margin: .5rem;
 }
 
-/* SLIDER HOME */
-.sliderHomeProducts {
-  display: flex;
-  flex-wrap: wrap;
-  width: 90vw;
-  margin: auto;
-  justify-content: space-evenly;
-  height: 20vh;
-  text-align: center;
-  margin-top: 2%;
-}
-.cardSliderHomeProducts {
-  margin: 5px;
-  width: 20vw;
-  height: 15vh;
-  font-weight: bold;
-  background-color: white;
-  border-radius: 25px 5px 25px 5px;
-}
-.cardSliderHomeProducts:hover {
-  box-shadow: 1px 2px 1px #f5a742;
-}
-.imgSliderHomeProducts {
-  margin: 4%;
-  width: 17vw;
-  height: 12vh;
-}
-/* FIN SLIDER HOME */
 
 /* PRODUCTS */
 .containerCardHomeProduct {
@@ -109,26 +81,29 @@
   cursor: pointer;
 }
 
-
-/* PRODUCTS */
-
 .containerLogoRedirect {
-  margin-top: 5%;
- /*  margin-bottom: 0.5%; */
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   width: 100%;
-  justify-content: space-evenly;
+  justify-content:space-evenly;
+  align-items: center;
   background-color: #27262b;
-  /*   background-color: #222a33; */
+}
+.containerLogoRedirect a{
+  padding: 2rem;
+  margin: 10px;
 }
 .logoRedirect {
-  border-radius: 10000px;
-  width: 15rem;
-  margin: 1rem 0rem 1rem 0rem;
+  margin: auto;
+  width: 18vw;
+}
+.logoIntelHeight{
+   height: 8vh;
+   width: 15vw;
 }
 .logoRedirect:hover {
-  box-shadow: 1px 5px 15px 10px rgb(90, 88, 88);
+  cursor: pointer;
+  box-shadow: 1px 1px 20px 1px rgb(119, 117, 117);
 }
 
 .imgBanerFooter {
@@ -177,7 +152,7 @@
 .containerHelpers{
   display: flex;
   flex-wrap: nowrap;
-  width: 100vw;
+  width: 100%;
 }
 .helpers{
   display:grid;
@@ -221,16 +196,19 @@
   .tittleCardHomeProduct {
     width: 25vw;
   }
-  .banner {
-    display: none;
-  }
+
 }
 
 @media (max-width: 1000px) {
   .banner {
-    height: 40vh;
+    display: none;
   }
-
+  .bannerBottomBanner{
+    height: auto;
+  }
+  .bottomBannerItem{
+    margin: auto;
+  }
   .containerCardHomeProduct {
     display: none;
   }
@@ -253,9 +231,9 @@
   .logoRedirect {
     width: 35%;
   }
-  .banner {
+ /*  .banner {
     display: none;
-  }
+  } */
 
   .cardHomeProduct {
     overflow: hidden;
@@ -273,11 +251,19 @@
     top: 5%;
     font-size: 40px;
   }
-  .bannerBottomBanner p {
+  .bannerBottomBanner {
     display: none;
   }
   .containerHelpers{
     flex-wrap: wrap;
+    justify-content: center;
+  }
+  .logoRedirect{
+  width: 20vh;   
+  }
+  .logoIntelHeight{
+    margin: auto;
+    width: 18vh;
   }
   .helpers{
     text-align: center; 
@@ -293,7 +279,5 @@
     width: 65%;
     margin: auto;
   }
-  .bannerBottomBanner {
-    display: none;
-  }
+
 }
