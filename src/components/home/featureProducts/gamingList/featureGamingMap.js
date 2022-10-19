@@ -12,7 +12,7 @@ export const FeatureGaming = ({ product }) => {
           <h1 className="titleProductFeature">NSX GAMING recommendation</h1>
           <h4 className="titleProductFeature2">
             {" "}
-            Gamming PCs that we think could be the best option for you{" "}
+            Gaming PCs that we think could be the best option for you{" "}
           </h4>
           
           <Link to={`/ProductsGaming`}  className=" iconCardHomeProductLink ">
