@@ -87,7 +87,7 @@ const Home = () => {
         </div>
         <div className="helpers"  >
           <img className="logosInfoHelper" src= "https://raw.githubusercontent.com/FabricioGodoy/imagenes/c462c07dd67472ecd07774148ae5c4c2d93e1afa/SN-LLC/icon_lifttime%20support.svg"/>
-          <h2> Standard -- -- Year Warranty</h2>
+          <h2> Standard 3 Year Warranty</h2>
           <p> Every purchase from SHOPNOW comes with a standard 3-year warranty supported by our in-house technicians.</p>
         </div>
       </div>
