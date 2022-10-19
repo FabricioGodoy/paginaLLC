@@ -8,7 +8,7 @@ export const ProductsGamingDetailMap = ({ producto }) => {
   return (
     <div>
       {" "}
-      <h2 className="titleDetailProductGaming"> Product Detail </h2>
+      <h2 className="titleProductFeature"> Product Detail </h2>
       <hr />
       <div className="containerProductDetailGaming">
         {producto.map((article) => (

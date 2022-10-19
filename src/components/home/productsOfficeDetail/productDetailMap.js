@@ -7,7 +7,7 @@ export const ProductDetailMap = ({ product }) => {
   return (
     <div>
       {" "}
-      <h2 className="titleDetailProduct"> Product Detail </h2>
+      <h2 className="titleProductFeature"> Product Detail </h2>
       <hr />
       <div className="containerProductDetail">
         {product.map((article) => (
