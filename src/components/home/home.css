@@ -87,12 +87,11 @@
   width: 100%;
   justify-content:space-evenly;
   align-items: center;
-  background-color: #27262b;
-}
-.containerLogoRedirect a{
+  background-color: #27262a;
   padding: 2rem;
-  margin: 10px;
+  margin: auto;
 }
+
 .logoRedirect {
   margin: auto;
   width: 18vw;
@@ -101,10 +100,7 @@
    height: 8vh;
    width: 12vw;
 }
-.logoRedirect:hover {
-  cursor: pointer;
-  box-shadow: 1px 1px 20px 1px rgb(119, 117, 117);
-}
+
 
 .imgBanerFooter {
   width: 100%;
