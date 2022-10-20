@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export const FeatureOffice = ({ featureOffice }) => {
 
   return (
-      <div className=" containerFeature containerFeatureMobileOff">
+      <div className=" containerFeature containerFeatureMobileOff slide-in-left ">
         
       
 

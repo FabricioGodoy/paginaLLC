@@ -5,7 +5,7 @@ import "./featureGaming.css";
 export const FeatureGaming = ({ product }) => {
 
   return (
-      <div className=" containerFeature">
+      <div className=" containerFeature slide-in-right">
         
         <div className="containerTitle">
           
