@@ -40,7 +40,16 @@
 .listFirstColum li:hover {
   cursor: pointer;
   text-decoration: underline;
+  color: white;
 }
+.listFirstColum a {
+  text-decoration: none;
+  color: white;
+}
+.listFirstColum a:hover {
+  color: white;
+}
+
 .itemFirstColum img {
   margin: 1rem;
   width: 2.5rem;

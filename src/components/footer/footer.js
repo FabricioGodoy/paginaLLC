@@ -11,10 +11,10 @@ export const Footer = () => {
         </div>
         <div className="itemFirstColum">
           <ul className="listFirstColum">
-            <li> About us </li>
-            <li> Contact us </li>
-            <li> Support </li>
-            <li> Blog </li>
+            <li> <a href="#">About us </a></li>
+            <li> <a href="contact">Contact us</a> </li>
+            <li> <a href="#">Support</a> </li>
+            <li> <a href="#">Blog</a> </li>
           </ul>
         </div>
         <div className="itemFirstColum logosFooter">
