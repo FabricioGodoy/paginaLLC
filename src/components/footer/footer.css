@@ -132,6 +132,12 @@
   }
 }
 @media (max-width: 1000px) {
+  .footerFirstColumn{
+    flex-wrap: wrap;
+  }
+  .footerThirdColumn{
+    flex-wrap: wrap;
+  }
   .itemFirstColum p {
     display: none;
   }
@@ -178,6 +184,7 @@
   .logosFooter {
     flex-wrap: nowrap;
     align-items: center;
+    
   }
   .itemSecondColumnInput {
     display: flex;
