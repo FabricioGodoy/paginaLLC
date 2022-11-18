@@ -7,7 +7,7 @@ export const Footer = () => {
       <div className="footerFirstColumn">
         <div className="itemFirstColum">
           <p>Order Online or Call:</p>
-          <h4> 0151231</h4>
+          <h4> 0303 456</h4>
         </div>
         <div className="itemFirstColum">
           <ul className="listFirstColum">
@@ -37,13 +37,13 @@ export const Footer = () => {
       <div className="footerSecondColumn">
         <div className="itemSecondColumn">
           <h5>CUSTOMER {"&"} TECH SUPPORT</h5>
-          <p> (888) 0303-456</p>
+          <p> (666) 666-666</p>
           <p> juancitoh@shopnow.com.ar</p>
         </div>
         <hr className="divisorHRfooter" />
         <div className="itemSecondColumn">
           <h5>SALES DEPARTMENT:</h5>
-          <p> (0123) 0303-456</p>
+          <p> (666) 666-666</p>
           <p> sales@shopnow.com.ar</p>
         </div>
         <hr className="divisorHRfooter" />
