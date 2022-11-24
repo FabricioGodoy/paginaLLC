@@ -1,12 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./productsPCGaming.css";
-import { motion, AnimatePresence, AnimateSharedLayout } from "framer-motion"
-import  { useState} from "react";
-
+import { motion, AnimatePresence, AnimateSharedLayout } from "framer-motion";
+import { useState } from "react";
 
 export const ProductsPCGamingMap = ({ stockGaming }) => {
-  const [selectedId, setSelectedId] = useState(null)
+  const [selectedId, setSelectedId] = useState(null);
   return (
     <>
       <h1 className=" titleProductFeature tittleContainer"> PC's Gaming</h1>
@@ -37,27 +36,33 @@ export const ProductsPCGamingMap = ({ stockGaming }) => {
           </article>
         ))} */}
 
- 
- {stockGaming.map((item) => (
-   <motion.div layoutId={item.id} className="productContainerGammig" key={item.id} onClick={() => setSelectedId(item.id)}>
-     <motion.img src={item.img} className="imgProductGaming" />
-     <motion.h5 className="descriptionContainer buttonProductContainer">{item.name}</motion.h5>
-     <motion.div className="descriptionContainer buttonProductContainer">{item.category}</motion.div>
-   </motion.div>
- ))}
- 
-  <AnimatePresence>
-   {selectedId && (
-     <motion.div layoutId={selectedId}>
-    {/*    <motion.h5>{item.name}</motion.h5>
-       <motion.h2>{item.sku}</motion.h2> */}
-       <motion.button onClick={() => setSelectedId(null)} />
-     </motion.div>
-   )}
- </AnimatePresence>
+        {stockGaming.map((item) => (
+          <motion.div
+            layoutId={item.id}
+            className="productContainerGammig"
+            key={item.id}
+            onClick={() => setSelectedId(item.id)}
+          >
+            <motion.img src={item.img} className="imgProductGaming" />
 
+            <motion.h5 className="descriptionContainer buttonProductContainer">
+              {item.name}
+            </motion.h5>
+            <motion.div className="descriptionContainer buttonProductContainer">
+              {item.category}
+            </motion.div>
+          </motion.div>
+        ))
+        }
 
-
+        <AnimatePresence >
+          {selectedId && (
+            <motion.div layoutId={selectedId}  >
+              <motion.button onClick={() => setSelectedId(null)} />
+              <motion.img src={selectedId.img} className="imgProductGaming cardFramer"/>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
       <div className="containerBackButton">
         <Link to={"/"} className="linkBackButton">

@@ -123,6 +123,13 @@
   text-decoration: none;
 }
 
+.cardFramer{
+  width: 15vw;
+  height: 15vh;
+}
+
+
+
 @media (max-width: 1200px) {
   .productContainerGammig {
     width: 22%;
