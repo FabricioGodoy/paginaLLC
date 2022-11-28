@@ -45,10 +45,10 @@ export const ProductsPCGamingMap = ({ stockGaming }) => {
           >
             <motion.img src={item.img} className="imgProductGaming" />
 
-            <motion.h5 className="descriptionContainer buttonProductContainer">
+            <motion.h5 /* className="descriptionContainer buttonProductContainer" */>
               {item.name}
             </motion.h5>
-            <motion.div className="descriptionContainer buttonProductContainer">
+            <motion.div /* className="descriptionContainer buttonProductContainer" */>
               {item.category}
             </motion.div>
           </motion.div>
@@ -59,7 +59,7 @@ export const ProductsPCGamingMap = ({ stockGaming }) => {
           {selectedId && (
             <motion.div layoutId={selectedId}  >
               <motion.button onClick={() => setSelectedId(null)} />
-              <motion.img src={selectedId.img} className="imgProductGaming cardFramer"/>
+              <motion.img src={selectedId.img} /* className="imgProductGaming cardFramer" *//>
             </motion.div>
           )}
         </AnimatePresence>
