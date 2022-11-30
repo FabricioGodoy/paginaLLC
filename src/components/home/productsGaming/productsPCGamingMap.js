@@ -10,7 +10,7 @@ export const ProductsPCGamingMap = ({ stockGaming }) => {
     <>
       <h1 className=" titleProductFeature tittleContainer"> PC's Gaming</h1>
       <div className=" containerProduct">
-        {/* {stockGaming.map((article) => (
+        {stockGaming.map((article) => (
           <article key={article.id} className="productContainerGammig">
             <Link
               to={`/detailProductGaming/${article.id}`}
@@ -34,9 +34,9 @@ export const ProductsPCGamingMap = ({ stockGaming }) => {
               </section>
             </Link>
           </article>
-        ))} */}
+        ))} 
 
-        {stockGaming.map((item) => (
+   {/*<   {stockGaming.map((item) => (
           <motion.div
             layoutId={item.id}
             className="productContainerGammig"
@@ -45,15 +45,15 @@ export const ProductsPCGamingMap = ({ stockGaming }) => {
           >
             <motion.img src={item.img} className="imgProductGaming" />
 
-            <motion.h5 /* className="descriptionContainer buttonProductContainer" */>
+            <motion.h5>
               {item.name}
             </motion.h5>
-            <motion.div /* className="descriptionContainer buttonProductContainer" */>
+            <motion.div >
               {item.category}
             </motion.div>
           </motion.div>
         ))
-        }
+        }  >*/}
 
         <AnimatePresence >
           {selectedId && (
