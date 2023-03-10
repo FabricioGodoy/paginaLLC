@@ -20,7 +20,7 @@ function App() {
   return (
     <Router>
       
-        <Navbar />
+        <Navbar className=" navbarappindex"/>
         <div className="todo">
           <Routes>
             <Route path="*" element={<Navigate to="/notFound" />} />

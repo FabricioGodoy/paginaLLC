@@ -45,7 +45,7 @@ export const ProductsPCGamingMap = ({ stockGaming }) => {
           >
             <motion.img src={item.img} className="imgProductGaming" />
 
-            <motion.h5>
+            <motion.h5>.0
               {item.name}
             </motion.h5>
             <motion.div >

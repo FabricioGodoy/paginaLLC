@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export const SliderPrincipal = () => {
   return (
     <div className="banner">
-      <Carousel fade>
+      <Carousel>
         <Carousel.Item>
           <Link to="/">
             <img
